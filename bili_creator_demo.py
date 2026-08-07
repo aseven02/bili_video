@@ -111,18 +111,18 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Fixed sleep seconds between pages. Overrides --sleep-min/--sleep-max.",
     )
-    parser.add_argument("--sleep-min", type=float, default=4.0, help="Minimum random sleep seconds between pages")
-    parser.add_argument("--sleep-max", type=float, default=10.0, help="Maximum random sleep seconds between pages")
+    parser.add_argument("--sleep-min", type=float, default=0.5, help="Minimum random sleep seconds between pages")
+    parser.add_argument("--sleep-max", type=float, default=2.0, help="Maximum random sleep seconds between pages")
     parser.add_argument(
         "--creator-sleep-min",
         type=float,
-        default=10.0,
+        default=3.0,
         help="Minimum random sleep seconds between creators",
     )
     parser.add_argument(
         "--creator-sleep-max",
         type=float,
-        default=30.0,
+        default=10.0,
         help="Maximum random sleep seconds between creators",
     )
     parser.add_argument("--retries", type=int, default=2, help="Retry times for API requests")

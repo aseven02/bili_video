@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-08-15T05:27:47Z",
+  "input": {
+    "batch_count": 12,
+    "batch_files": [
+      "batch0.json",
+      "batch1.json",
+      "batch2.json",
+      "batch3.json",
+      "batch4.json",
+      "batch5.json",
+      "batch6.json",
+      "batch7.json",
+      "batch8.json",
+      "batch9.json",
+      "batch10.json",
+      "batch11.json"
+    ],
+    "input_creator_records": 5807,
+    "input_video_records": 1206604,
+    "duplicate_author_records": 0,
+    "duplicate_video_records": 0
+  },
+  "overall": {
+    "author_count": 5807,
+    "status_counts": {
+      "success": 5807
+    },
+    "total_video_count": 1206604,
+    "authors_with_videos": 5798,
+    "authors_without_videos": 9,
+    "videos_per_author": {
+      "min": 0,
+      "max": 400,
+      "mean": 207.78,
+      "median": 185
+    },
+    "total_play": 508300380796,
+    "total_comment": 702405225,
+    "union_video_count": 46480,
+    "earliest_created": 1246000296,
+    "earliest_created_at": "2009-06-26T15:11:36+08:00",
+    "latest_created": 1785996488,
+    "latest_created_at": "2026-08-06T14:08:08+08:00"
+  },
+  "since": {
+    "date": "2025-01-01",
+    "timestamp": 1735660800,
+    "datetime": "2025-01-01T00:00:00+08:00",
+    "total_video_count": 759494,
+    "author_count_with_videos": 5798,
+    "total_play": 245061755853,
+    "total_comment": 381528502,
+    "union_video_count": 20648
+  },
+  "batches": [
+    {
+      "file": "batch0.json",
+      "generated_at": "2026-08-02T14:16:24Z",
+      "updated_at": "2026-08-03T01:20:50Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 105476
+    },
+    {
+      "file": "batch1.json",
+      "generated_at": "2026-08-03T02:07:16Z",
+      "updated_at": "2026-08-03T12:20:09Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 102426
+    },
+    {
+      "file": "batch2.json",
+      "generated_at": "2026-08-03T13:35:46Z",
+      "updated_at": "2026-08-03T21:38:12Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 100930
+    },
+    {
+      "file": "batch3.json",
+      "generated_at": "2026-08-04T04:16:46Z",
+      "updated_at": "2026-08-04T12:28:04Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 105033
+    },
+    {
+      "file": "batch4.json",
+      "generated_at": "2026-08-04T12:32:44Z",
+      "updated_at": "2026-08-04T17:51:48Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 103598
+    },
+    {
+      "file": "batch5.json",
+      "generated_at": "2026-08-04T22:24:53Z",
+      "updated_at": "2026-08-05T03:37:36Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 99925
+    },
+    {
+      "file": "batch6.json",
+      "generated_at": "2026-08-05T05:44:38Z",
+      "updated_at": "2026-08-05T08:56:42Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 104766
+    },
+    {
+      "file": "batch7.json",
+      "generated_at": "2026-08-05T10:54:02Z",
+      "updated_at": "2026-08-05T13:12:30Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 102606
+    },
+    {
+      "file": "batch8.json",
+      "generated_at": "2026-08-05T13:34:25Z",
+      "updated_at": "2026-08-05T15:58:06Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 107017
+    },
+    {
+      "file": "batch9.json",
+      "generated_at": "2026-08-05T16:02:36Z",
+      "updated_at": "2026-08-05T18:26:55Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 107925
+    },
+    {
+      "file": "batch10.json",
+      "generated_at": "2026-08-05T18:26:56Z",
+      "updated_at": "2026-08-05T20:47:11Z",
+      "creator_records": 500,
+      "success_records": 500,
+      "non_success_records": 0,
+      "video_records": 104626
+    },
+    {
+      "file": "batch11.json",
+      "generated_at": "2026-08-06T05:04:00Z",
+      "updated_at": "2026-08-06T06:22:56Z",
+      "creator_records": 307,
+      "success_records": 307,
+      "non_success_records": 0,
+      "video_records": 62276
+    }
+  ]
+}

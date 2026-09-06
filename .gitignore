@@ -11,9 +11,14 @@ wheels/
 
 # browser data
 chrome_data/
+chrome_data_worker1/
 
-# bili_uid_data
-bili_uid/
+
+####大文件####
+bili_video_details.json
+output1.json
 
 # all_uid
-uid_info.json
+uid_info_all.json
+
+

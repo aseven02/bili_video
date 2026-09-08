@@ -52,7 +52,7 @@ def get_request_result(bvid):
         print(f"{bvid} failed")
         return None
 
-bvid = get_bvids_list("video_batches/video_batches_0.json", n=10)
+bvid = get_bvids_list("video_batches/video_batches_0.json", n=100)
 result_list = []
 for b in bvid:
     result = get_request_result(b)
@@ -60,6 +60,6 @@ for b in bvid:
         print(f"Failed to get result for {b}")
         break
     result_list.append(result)
-with open('test.json', 'w', encoding='utf-8') as f:
+with open('video_url_test.json', 'w', encoding='utf-8') as f:
     json.dump(result_list, f, ensure_ascii=False, indent=4)
 print(f"Successfully processed {len(result_list)} videos.")

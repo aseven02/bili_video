@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "bs4>=0.0.2",
     "httpx>=0.28.1",
+    "loguru>=0.7.3",
     "playwright>=1.61.0",
+    "requests>=2.34.2",
     "tqdm>=4.70.0",
 ]

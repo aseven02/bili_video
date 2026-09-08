@@ -21,4 +21,5 @@ output1.json
 # all_uid
 uid_info_all.json
 
-
+# 结果文件
+video_batches_result/

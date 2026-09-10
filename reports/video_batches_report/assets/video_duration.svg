@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="359" viewBox="0 0 1000 359">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif;fill:#18191c;font-size:15px}</style>
+<text x="24" y="38" font-size="22" font-weight="700">作品时长分布</text>
+<text x="173" y="95" text-anchor="end">&lt;1分钟</text>
+<rect x="185" y="77" width="511.5" height="25" rx="3" fill="#7BCFA6"/>
+<text x="705.4779205309283" y="95">37.28万</text>
+<text x="173" y="137" text-anchor="end">1-5分钟</text>
+<rect x="185" y="119" width="645.0" height="25" rx="3" fill="#7BCFA6"/>
+<text x="839.0" y="137">47.01万</text>
+<text x="173" y="179" text-anchor="end">5-10分钟</text>
+<rect x="185" y="161" width="228.6" height="25" rx="3" fill="#7BCFA6"/>
+<text x="422.58727558921123" y="179">16.66万</text>
+<text x="173" y="221" text-anchor="end">10-30分钟</text>
+<rect x="185" y="203" width="199.1" height="25" rx="3" fill="#7BCFA6"/>
+<text x="393.1237875436059" y="221">14.51万</text>
+<text x="173" y="263" text-anchor="end">30-60分钟</text>
+<rect x="185" y="245" width="38.3" height="25" rx="3" fill="#7BCFA6"/>
+<text x="232.2606887603165" y="263">2.79万</text>
+<text x="173" y="305" text-anchor="end">60分钟以上</text>
+<rect x="185" y="287" width="21.3" height="25" rx="3" fill="#7BCFA6"/>
+<text x="215.34130647494257" y="305">1.56万</text>
+</svg>

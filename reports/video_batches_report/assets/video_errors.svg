@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="275" viewBox="0 0 1000 275">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif;fill:#18191c;font-size:15px}</style>
+<text x="24" y="38" font-size="22" font-weight="700">作品失败原因</text>
+<text x="173" y="95" text-anchor="end">api:-403</text>
+<rect x="185" y="77" width="2.9" height="25" rx="3" fill="#E85C5C"/>
+<text x="196.8953274841869" y="95">22</text>
+<text x="173" y="137" text-anchor="end">api:-404</text>
+<rect x="185" y="119" width="77.4" height="25" rx="3" fill="#E85C5C"/>
+<text x="271.3842073046317" y="137">588</text>
+<text x="173" y="179" text-anchor="end">api:62002</text>
+<rect x="185" y="161" width="645.0" height="25" rx="3" fill="#E85C5C"/>
+<text x="839.0" y="179">4,901</text>
+<text x="173" y="221" text-anchor="end">api:62012</text>
+<rect x="185" y="203" width="393.0" height="25" rx="3" fill="#E85C5C"/>
+<text x="586.974903081004" y="221">2,986</text>
+</svg>

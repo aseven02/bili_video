@@ -1,0 +1,1784 @@
+{
+  "generated_at": "2026-09-10T11:34:41Z",
+  "source": {
+    "files_discovered": 5798,
+    "files_analyzed": 5798,
+    "invalid_file_count": 0,
+    "invalid_files": [],
+    "filter": {
+      "since_year": null,
+      "inclusive": true,
+      "timezone": "Asia/Shanghai",
+      "excluded_authors_without_qualifying_videos": 0,
+      "excluded_videos_before_year": 0,
+      "excluded_videos_without_pubdate": 0
+    }
+  },
+  "authors": {
+    "records": 5798,
+    "profiles_available": 5798,
+    "profile_availability_rate": 1.0,
+    "status_counts": {
+      "partial_failed": 971,
+      "success": 4827
+    },
+    "certified_count": 2364,
+    "certified_rate": 0.4077,
+    "level_counts": {
+      "0": 74,
+      "2": 81,
+      "3": 205,
+      "4": 304,
+      "5": 679,
+      "6": 4455
+    },
+    "error_counts": {},
+    "distributions": {
+      "fans": {
+        "<1千": 306,
+        "1千-1万": 672,
+        "1万-10万": 1673,
+        "10万-100万": 2227,
+        "100万-1000万": 902,
+        "1000万以上": 18
+      },
+      "selected_video_records": {
+        "<10": 256,
+        "10-49": 953,
+        "50-99": 772,
+        "100-199": 1059,
+        "200-399": 1218,
+        "400及以上": 1540
+      }
+    },
+    "metrics": {
+      "fans": {
+        "count": 5798,
+        "missing": 0,
+        "min": 10,
+        "max": 32175146,
+        "sum": 3267955294,
+        "mean": 563634.92,
+        "std_dev": 1347448.28
+      },
+      "like_num": {
+        "count": 5798,
+        "missing": 0,
+        "min": 1439,
+        "max": 492981579,
+        "sum": 37541066346,
+        "mean": 6474830.35,
+        "std_dev": 15081079.21
+      },
+      "archive_count": {
+        "count": 5798,
+        "missing": 0,
+        "min": 0,
+        "max": 147324,
+        "sum": 2994628,
+        "mean": 516.49,
+        "std_dev": 2855.45
+      },
+      "article_count": {
+        "count": 5798,
+        "missing": 0,
+        "min": 0,
+        "max": 0,
+        "sum": 0,
+        "mean": 0.0,
+        "std_dev": 0.0
+      },
+      "selected_video_records": {
+        "count": 5798,
+        "missing": 0,
+        "min": 1,
+        "max": 400,
+        "sum": 1206604,
+        "mean": 208.11,
+        "std_dev": 149.64
+      }
+    },
+    "top_by_fans": [
+      {
+        "uid": "517327498",
+        "name": "罗翔说刑法",
+        "face": "https://i1.hdslb.com/bfs/face/4e5d0a51273fe3f8fabc700b6a71bb8a38c9e21e.jpg",
+        "space_url": "https://space.bilibili.com/517327498",
+        "value": 32175146
+      },
+      {
+        "uid": "14229967",
+        "name": "一数",
+        "face": "https://i1.hdslb.com/bfs/face/812281bada7d323c23c6e1e2e92749bd29b7d7c6.jpg",
+        "space_url": "https://space.bilibili.com/14229967",
+        "value": 25971760
+      },
+      {
+        "uid": "456664753",
+        "name": "央视新闻",
+        "face": "https://i1.hdslb.com/bfs/face/99aa43ae5b2c3b398592907146ffd8bb0ee9a7c4.jpg",
+        "space_url": "https://space.bilibili.com/456664753",
+        "value": 24506496
+      },
+      {
+        "uid": "401742377",
+        "name": "原神",
+        "face": "https://i2.hdslb.com/bfs/face/853c4a846793dfbdafd8f16a40d6d8065bdb7c6f.jpg",
+        "space_url": "https://space.bilibili.com/401742377",
+        "value": 20781254
+      },
+      {
+        "uid": "546195",
+        "name": "老番茄",
+        "face": "http://i0.hdslb.com/bfs/face/bc5ca101313d4db223c395d64779e76eb3482d60.jpg",
+        "space_url": "https://space.bilibili.com/546195",
+        "value": 20766837
+      },
+      {
+        "uid": "946974",
+        "name": "影视飓风",
+        "face": "https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg",
+        "space_url": "https://space.bilibili.com/946974",
+        "value": 17373792
+      },
+      {
+        "uid": "50329118",
+        "name": "哔哩哔哩英雄联盟赛事",
+        "face": "https://i2.hdslb.com/bfs/face/544c89e68f2b1f12ffcbb8b3c062a3328e8692d9.jpg",
+        "space_url": "https://space.bilibili.com/50329118",
+        "value": 16836371
+      },
+      {
+        "uid": "604003146",
+        "name": "帕梅拉PamelaReif",
+        "face": "https://i0.hdslb.com/bfs/face/95823274c36951a15ca12e3b05078859c536f4a4.jpg",
+        "space_url": "https://space.bilibili.com/604003146",
+        "value": 14987933
+      },
+      {
+        "uid": "15634833",
+        "name": "鲤鱼Ace",
+        "face": "https://i0.hdslb.com/bfs/face/c8c4f9f459849fd4b2b7077b6ed938730e15e626.jpg",
+        "space_url": "https://space.bilibili.com/15634833",
+        "value": 12495805
+      },
+      {
+        "uid": "1340190821",
+        "name": "崩坏星穹铁道",
+        "face": "https://i2.hdslb.com/bfs/face/1336282f4138c9fd870fe75281de1441125a64c9.jpg",
+        "space_url": "https://space.bilibili.com/1340190821",
+        "value": 12488215
+      },
+      {
+        "uid": "18202105",
+        "name": "绵羊料理",
+        "face": "https://i1.hdslb.com/bfs/face/54b5c9c2ad7f1baff195090bfd6afa365ef20c37.jpg",
+        "space_url": "https://space.bilibili.com/18202105",
+        "value": 12140605
+      },
+      {
+        "uid": "57863910",
+        "name": "王者荣耀",
+        "face": "https://i0.hdslb.com/bfs/face/4af63403725f0667838e37dbd2869385465b15e4.jpg",
+        "space_url": "https://space.bilibili.com/57863910",
+        "value": 11850262
+      },
+      {
+        "uid": "23947287",
+        "name": "小约翰可汗",
+        "face": "https://i0.hdslb.com/bfs/face/2a19f8f589e0d596c083c51183f6e48927059124.jpg",
+        "space_url": "https://space.bilibili.com/23947287",
+        "value": 10879549
+      },
+      {
+        "uid": "562197",
+        "name": "中国BOY超级大猩猩",
+        "face": "https://i0.hdslb.com/bfs/face/ffb50dd4e712386eb888030ebc6f4aea3a65cd8e.jpg",
+        "space_url": "https://space.bilibili.com/562197",
+        "value": 10762355
+      },
+      {
+        "uid": "14804670",
+        "name": "无穷小亮的科普日常",
+        "face": "http://i0.hdslb.com/bfs/face/6de12181ed59518fc7beff2046fb3218d50206cc.jpg",
+        "space_url": "https://space.bilibili.com/14804670",
+        "value": 10703786
+      },
+      {
+        "uid": "66607740",
+        "name": "宋浩老师官方",
+        "face": "https://i0.hdslb.com/bfs/face/743137ec91e924bf404f321fb5eeb8214627f759.jpg",
+        "space_url": "https://space.bilibili.com/66607740",
+        "value": 10503945
+      },
+      {
+        "uid": "431073645",
+        "name": "你的影月月",
+        "face": "https://i0.hdslb.com/bfs/face/2e32de7b28fc491a28281a22c6ea9f5d195cbdf5.jpg",
+        "space_url": "https://space.bilibili.com/431073645",
+        "value": 10475875
+      },
+      {
+        "uid": "1526560679",
+        "name": "一化儿",
+        "face": "https://i2.hdslb.com/bfs/face/f7dd769022b6a0326bd88d8ce3f6bab654bd1255.jpg",
+        "space_url": "https://space.bilibili.com/1526560679",
+        "value": 10197496
+      },
+      {
+        "uid": "39627524",
+        "name": "食贫道",
+        "face": "https://i2.hdslb.com/bfs/face/eef12b850c10b0d7a7929236abb08604955823c0.jpg",
+        "space_url": "https://space.bilibili.com/39627524",
+        "value": 9632846
+      },
+      {
+        "uid": "3670216",
+        "name": "TF家族",
+        "face": "https://i1.hdslb.com/bfs/face/1c74336b9060d40d0ccf5e8bce7c0de34526b1e3.jpg",
+        "space_url": "https://space.bilibili.com/3670216",
+        "value": 9550391
+      }
+    ],
+    "top_by_like_num": [
+      {
+        "uid": "456664753",
+        "name": "央视新闻",
+        "face": "https://i1.hdslb.com/bfs/face/99aa43ae5b2c3b398592907146ffd8bb0ee9a7c4.jpg",
+        "space_url": "https://space.bilibili.com/456664753",
+        "value": 492981579
+      },
+      {
+        "uid": "401742377",
+        "name": "原神",
+        "face": "https://i2.hdslb.com/bfs/face/853c4a846793dfbdafd8f16a40d6d8065bdb7c6f.jpg",
+        "space_url": "https://space.bilibili.com/401742377",
+        "value": 283234320
+      },
+      {
+        "uid": "546195",
+        "name": "老番茄",
+        "face": "http://i0.hdslb.com/bfs/face/bc5ca101313d4db223c395d64779e76eb3482d60.jpg",
+        "space_url": "https://space.bilibili.com/546195",
+        "value": 194467831
+      },
+      {
+        "uid": "3493260618106936",
+        "name": "伤心欲茄222",
+        "face": "https://i1.hdslb.com/bfs/face/1f0cb64d9b62da7db7e6e020b78b6872dbffe55c.jpg",
+        "space_url": "https://space.bilibili.com/3493260618106936",
+        "value": 185150539
+      },
+      {
+        "uid": "3670216",
+        "name": "TF家族",
+        "face": "https://i1.hdslb.com/bfs/face/1c74336b9060d40d0ccf5e8bce7c0de34526b1e3.jpg",
+        "space_url": "https://space.bilibili.com/3670216",
+        "value": 170228845
+      },
+      {
+        "uid": "161775300",
+        "name": "明日方舟",
+        "face": "https://i0.hdslb.com/bfs/face/d4005a0f9b898d8bb049caf9c6355f8e8f772a8f.jpg",
+        "space_url": "https://space.bilibili.com/161775300",
+        "value": 161904117
+      },
+      {
+        "uid": "346563107",
+        "name": "波士顿圆脸",
+        "face": "https://i2.hdslb.com/bfs/face/f8f0fc4114bb06a87481abe12faa006a383cbe6d.jpg",
+        "space_url": "https://space.bilibili.com/346563107",
+        "value": 159331881
+      },
+      {
+        "uid": "1340190821",
+        "name": "崩坏星穹铁道",
+        "face": "https://i2.hdslb.com/bfs/face/1336282f4138c9fd870fe75281de1441125a64c9.jpg",
+        "space_url": "https://space.bilibili.com/1340190821",
+        "value": 155966924
+      },
+      {
+        "uid": "1685024055",
+        "name": "star星视频",
+        "face": "https://i0.hdslb.com/bfs/face/f1f7dca9254a7cbe8015d64b78091ddfeada43f1.jpg",
+        "space_url": "https://space.bilibili.com/1685024055",
+        "value": 154737328
+      },
+      {
+        "uid": "686127",
+        "name": "籽岷",
+        "face": "https://i0.hdslb.com/bfs/face/7efb679569b2faeff38fa08f6f992fa1ada5e948.webp",
+        "space_url": "https://space.bilibili.com/686127",
+        "value": 152830031
+      },
+      {
+        "uid": "526890129",
+        "name": "红星视频",
+        "face": "https://i0.hdslb.com/bfs/face/f23519752b83a2a79b789c7a1770a6984de6e018.jpg",
+        "space_url": "https://space.bilibili.com/526890129",
+        "value": 139464953
+      },
+      {
+        "uid": "405370021",
+        "name": "尴尬的铁根er",
+        "face": "https://i1.hdslb.com/bfs/face/cbe228260be3e8d2b49cb2f8dde7a0a41bee1d93.jpg",
+        "space_url": "https://space.bilibili.com/405370021",
+        "value": 126934190
+      },
+      {
+        "uid": "946974",
+        "name": "影视飓风",
+        "face": "https://i0.hdslb.com/bfs/face/c1733474892caa45952b2c09a89323157df7129a.jpg",
+        "space_url": "https://space.bilibili.com/946974",
+        "value": 124674279
+      },
+      {
+        "uid": "562197",
+        "name": "中国BOY超级大猩猩",
+        "face": "https://i0.hdslb.com/bfs/face/ffb50dd4e712386eb888030ebc6f4aea3a65cd8e.jpg",
+        "space_url": "https://space.bilibili.com/562197",
+        "value": 118125291
+      },
+      {
+        "uid": "337521240",
+        "name": "记录生活的蛋黄派",
+        "face": "https://i0.hdslb.com/bfs/face/9ba6c7a0d3a2ebfe9db2f46219ece98e210d0269.jpg",
+        "space_url": "https://space.bilibili.com/337521240",
+        "value": 116184068
+      },
+      {
+        "uid": "544336675",
+        "name": "真探唐仁杰",
+        "face": "https://i1.hdslb.com/bfs/face/f82b7cb6e6b9e2351bb201f668af10b66b4d0d5c.jpg",
+        "space_url": "https://space.bilibili.com/544336675",
+        "value": 114404768
+      },
+      {
+        "uid": "10119428",
+        "name": "小片片说大片",
+        "face": "https://i2.hdslb.com/bfs/face/949fd3f0b9fe23703c970d494edc41ae52ee32de.jpg",
+        "space_url": "https://space.bilibili.com/10119428",
+        "value": 111510826
+      },
+      {
+        "uid": "94510621",
+        "name": "梗指南",
+        "face": "https://i1.hdslb.com/bfs/face/f7506af1aa96fc4350d457db015518532a09dd45.jpg",
+        "space_url": "https://space.bilibili.com/94510621",
+        "value": 107099094
+      },
+      {
+        "uid": "268941858",
+        "name": "磊哥游戏",
+        "face": "https://i0.hdslb.com/bfs/face/538b9090c0862782df0662b2176e726eda1c9980.jpg",
+        "space_url": "https://space.bilibili.com/268941858",
+        "value": 106322433
+      },
+      {
+        "uid": "99157282",
+        "name": "盗月社食遇记",
+        "face": "https://i1.hdslb.com/bfs/face/c7fb5da587c2ec6b56ad47579933fda34c000457.jpg",
+        "space_url": "https://space.bilibili.com/99157282",
+        "value": 103683508
+      }
+    ]
+  },
+  "videos": {
+    "records": 1206604,
+    "unique_bvids": 1198748,
+    "duplicate_associations": 7856,
+    "status_counts": {
+      "failed": 8497,
+      "success": 1198107
+    },
+    "success_rate": 0.993,
+    "creator_relation_counts": {
+      "owner": 1175926,
+      "staff": 22168,
+      "unverified": 13
+    },
+    "cooperation_count": 46435,
+    "cooperation_rate": 0.0388,
+    "publish_time": {
+      "earliest": {
+        "timestamp": 1246000296,
+        "datetime": "2009-06-26T15:11:36+08:00"
+      },
+      "latest": {
+        "timestamp": 1788268230,
+        "datetime": "2026-09-01T21:10:30+08:00"
+      },
+      "year_counts": {
+        "2009": 12,
+        "2010": 11,
+        "2011": 26,
+        "2012": 127,
+        "2013": 103,
+        "2014": 200,
+        "2015": 426,
+        "2016": 1120,
+        "2017": 2459,
+        "2018": 4764,
+        "2019": 11423,
+        "2020": 24007,
+        "2021": 42014,
+        "2022": 69813,
+        "2023": 108173,
+        "2024": 181100,
+        "2025": 341110,
+        "2026": 411219
+      }
+    },
+    "distributions": {
+      "views": {
+        "<1千": 73158,
+        "1千-1万": 194591,
+        "1万-10万": 350416,
+        "10万-100万": 449084,
+        "100万-1000万": 128174,
+        "1000万以上": 2684
+      },
+      "duration": {
+        "<1分钟": 372800,
+        "1-5分钟": 470120,
+        "5-10分钟": 166610,
+        "10-30分钟": 145135,
+        "30-60分钟": 27887,
+        "60分钟以上": 15555
+      }
+    },
+    "error_counts": {
+      "api:-403": 22,
+      "api:-404": 588,
+      "api:62002": 4901,
+      "api:62012": 2986
+    },
+    "metrics": {
+      "duration": {
+        "count": 1198107,
+        "missing": 0,
+        "min": 0,
+        "max": 3654091,
+        "sum": 527673468,
+        "mean": 440.42,
+        "std_dev": 4746.76
+      },
+      "view": {
+        "count": 1198107,
+        "missing": 0,
+        "min": 0,
+        "max": 202486535,
+        "sum": 519133606252,
+        "mean": 433294.86,
+        "std_dev": 1182387.51
+      },
+      "like": {
+        "count": 1198107,
+        "missing": 0,
+        "min": 0,
+        "max": 5748283,
+        "sum": 24597783403,
+        "mean": 20530.54,
+        "std_dev": 56475.07
+      },
+      "coin": {
+        "count": 1198107,
+        "missing": 0,
+        "min": 0,
+        "max": 5830869,
+        "sum": 4401633562,
+        "mean": 3673.82,
+        "std_dev": 25975.33
+      },
+      "favorite": {
+        "count": 1198107,
+        "missing": 0,
+        "min": 0,
+        "max": 3555546,
+        "sum": 5967935766,
+        "mean": 4981.14,
+        "std_dev": 21776.02
+      },
+      "share": {
+        "count": 1198107,
+        "missing": 0,
+        "min": 0,
+        "max": 1214251,
+        "sum": 1228072482,
+        "mean": 1025.01,
+        "std_dev": 6150.89
+      },
+      "danmaku": {
+        "count": 1198107,
+        "missing": 0,
+        "min": 0,
+        "max": 12574292,
+        "sum": 1561736583,
+        "mean": 1303.5,
+        "std_dev": 20614.64
+      },
+      "reply": {
+        "count": 1198107,
+        "missing": 0,
+        "min": 0,
+        "max": 7903462,
+        "sum": 709618101,
+        "mean": 592.28,
+        "std_dev": 8674.1
+      }
+    },
+    "top_by_views": [
+      {
+        "bvid": "BV1Eb411u7Fw",
+        "title": "《高等数学》同济版 2024年更新|宋浩老师",
+        "pic": "http://i2.hdslb.com/bfs/archive/db56877bf758e92f813c25705b6d5fc0eed20512.jpg",
+        "url": "https://www.bilibili.com/video/BV1Eb411u7Fw",
+        "creator_uid": "66607740",
+        "creator_name": "宋浩老师官方",
+        "value": 202486535
+      },
+      {
+        "bvid": "BV1yt4y1Q7SS",
+        "title": "敢 杀 我 的 马？！",
+        "pic": "http://i2.hdslb.com/bfs/archive/b1a07a8baefa0694760cd6d99f212bee45d1333d.jpg",
+        "url": "https://www.bilibili.com/video/BV1yt4y1Q7SS",
+        "creator_uid": "59905809",
+        "creator_name": "哦呼w",
+        "value": 128664861
+      },
+      {
+        "bvid": "BV1CAxaeHEeH",
+        "title": "《高等数学》全程教学视频 2.0版【宋浩老师】",
+        "pic": "http://i2.hdslb.com/bfs/archive/85b77783310ecad59cbb44006122059f9bea0126.jpg",
+        "url": "https://www.bilibili.com/video/BV1CAxaeHEeH",
+        "creator_uid": "66607740",
+        "creator_name": "宋浩老师官方",
+        "value": 115494544
+      },
+      {
+        "bvid": "BV1FE411r7NB",
+        "title": "伍六七之最强发型师01：最强发型师",
+        "pic": "http://i1.hdslb.com/bfs/archive/5ac5302075abf6bc7ba0efe076f6050499ea3715.jpg",
+        "url": "https://www.bilibili.com/video/BV1FE411r7NB",
+        "creator_uid": "268990278",
+        "creator_name": "伍六七official",
+        "value": 97167695
+      },
+      {
+        "bvid": "BV1qt411j7fV",
+        "title": "【派大星的独白】一个关于正常人的故事",
+        "pic": "http://i1.hdslb.com/bfs/archive/3e2e1e0b3c1108b83148bd2f51b3d28fc94c3b63.jpg",
+        "url": "https://www.bilibili.com/video/BV1qt411j7fV",
+        "creator_uid": "30222764",
+        "creator_name": "洛温阿特金森",
+        "value": 94650758
+      },
+      {
+        "bvid": "BV1aW411Q7x1",
+        "title": "《线性代数》教学视频  宋浩老师（2024年更新）",
+        "pic": "http://i2.hdslb.com/bfs/archive/ff8e4c59a7bc5b2b23f5358e61d1ade8d1cd2749.jpg",
+        "url": "https://www.bilibili.com/video/BV1aW411Q7x1",
+        "creator_uid": "66607740",
+        "creator_name": "宋浩老师官方",
+        "value": 77757441
+      },
+      {
+        "bvid": "BV1pi4y147tQ",
+        "title": "最 强 法 海",
+        "pic": "http://i0.hdslb.com/bfs/archive/f1dd52536bc7f23fad5dbb9eae93fcd26d72b38b.png",
+        "url": "https://www.bilibili.com/video/BV1pi4y147tQ",
+        "creator_uid": "96070394",
+        "creator_name": "推背兔の",
+        "value": 68046967
+      },
+      {
+        "bvid": "BV1E7411k7Qy",
+        "title": "曾火遍全网的《溯》，你是否还知道？",
+        "pic": "http://i1.hdslb.com/bfs/archive/c8a201342dba040683468c6069ac4c8faf44cf6c.jpg",
+        "url": "https://www.bilibili.com/video/BV1E7411k7Qy",
+        "creator_uid": "5687194",
+        "creator_name": "银发の半精灵",
+        "value": 66829948
+      },
+      {
+        "bvid": "BV1R3411A7g4",
+        "title": "帕梅拉 - 10分钟暴汗有氧｜内啡肽UP 欢乐高强有氧舞步 (PamelaReif Official)",
+        "pic": "http://i2.hdslb.com/bfs/archive/173a6c38ab24f9a7b394c2bb6b5f7c1f14412610.jpg",
+        "url": "https://www.bilibili.com/video/BV1R3411A7g4",
+        "creator_uid": "604003146",
+        "creator_name": "帕梅拉PamelaReif",
+        "value": 63674612
+      },
+      {
+        "bvid": "BV1AM4y1M71p",
+        "title": "破亿纪念!【猛男版】新宝岛 4K高清重置加强版",
+        "pic": "http://i0.hdslb.com/bfs/archive/f28fae0e133f8bb289d719e031891764edb332e1.jpg",
+        "url": "https://www.bilibili.com/video/BV1AM4y1M71p",
+        "creator_uid": "483879799",
+        "creator_name": "猛男舞团IconX",
+        "value": 54492103
+      },
+      {
+        "bvid": "BV1aE411n7wb",
+        "title": "【祖娅纳惜】 囍 【这什么灵魂唢呐！！】",
+        "pic": "http://i1.hdslb.com/bfs/archive/fe5262e45f4d6242672cf97086ebbcd177c3cd1f.jpg",
+        "url": "https://www.bilibili.com/video/BV1aE411n7wb",
+        "creator_uid": "3046429",
+        "creator_name": "祖娅纳惜",
+        "value": 53434431
+      },
+      {
+        "bvid": "BV1ktidYZEgh",
+        "title": "【无限暖暖】1.0公测一条龙全收集 宝箱+奇想星+灵感露珠+任务+打卡点+小游戏 纪念山地/花愿镇//微风绿野/小石树田村/石树田无人区/祈愿树林",
+        "pic": "http://i2.hdslb.com/bfs/archive/3baf5414dfc36a675013828e33848952a74e181d.jpg",
+        "url": "https://www.bilibili.com/video/BV1ktidYZEgh",
+        "creator_uid": "1773346",
+        "creator_name": "莴苣某人",
+        "value": 52253200
+      },
+      {
+        "bvid": "BV1h5QaY5EaH",
+        "title": "TES先锋赛单曲1.0《突然的陀螺》",
+        "pic": "http://i2.hdslb.com/bfs/archive/83def3df574bfc0f6b6d09ffef7bca6227c978b8.jpg",
+        "url": "https://www.bilibili.com/video/BV1h5QaY5EaH",
+        "creator_uid": "18026414",
+        "creator_name": "蔚蓝边际",
+        "value": 51524199
+      },
+      {
+        "bvid": "BV1ot411y7mU",
+        "title": "《概率论与数理统计》教学视频全集（宋浩）",
+        "pic": "http://i1.hdslb.com/bfs/archive/0ccbc2307d31f9fe6d0877ac025a729333823ed8.jpg",
+        "url": "https://www.bilibili.com/video/BV1ot411y7mU",
+        "creator_uid": "66607740",
+        "creator_name": "宋浩老师官方",
+        "value": 51296615
+      },
+      {
+        "bvid": "BV15L411p7M8",
+        "title": "⚡萨 日 朗！！！⚡",
+        "pic": "http://i1.hdslb.com/bfs/archive/2598ab5a83448edff1b407ef64eb742b6795e993.jpg",
+        "url": "https://www.bilibili.com/video/BV15L411p7M8",
+        "creator_uid": "39422678",
+        "creator_name": "夜雨星繁y",
+        "value": 50947489
+      },
+      {
+        "bvid": "BV1me411n7eu",
+        "title": "《崩坏：星穹铁道》OP：「不眠之夜」",
+        "pic": "http://i2.hdslb.com/bfs/archive/987f433d2fcc8f6f4fb685d8a10d38fbe468d6e5.jpg",
+        "url": "https://www.bilibili.com/video/BV1me411n7eu",
+        "creator_uid": "1340190821",
+        "creator_name": "崩坏星穹铁道",
+        "value": 50253534
+      },
+      {
+        "bvid": "BV1FE411r7Kc",
+        "title": "伍六七之最强发型师02：十三vs六七",
+        "pic": "http://i1.hdslb.com/bfs/archive/d8af712e4c8efa926dbcd012d9be8bc6481474bf.jpg",
+        "url": "https://www.bilibili.com/video/BV1FE411r7Kc",
+        "creator_uid": "268990278",
+        "creator_name": "伍六七official",
+        "value": 49608881
+      },
+      {
+        "bvid": "BV16W4y1k7CR",
+        "title": "托小老三的福！楼下修电脑的都五套房了!!",
+        "pic": "http://i0.hdslb.com/bfs/archive/e15cac0dd9addbbe60868cc10b5310bc8b581903.jpg",
+        "url": "https://www.bilibili.com/video/BV16W4y1k7CR",
+        "creator_uid": "58409989",
+        "creator_name": "牛奶是只猫-",
+        "value": 48030851
+      },
+      {
+        "bvid": "BV1B64y1q7Cw",
+        "title": "《反方向的钟》你 为什么不爱我",
+        "pic": "http://i0.hdslb.com/bfs/archive/ed78c90c3c36a44e97ae2a6fe3245b0ce23efc20.jpg",
+        "url": "https://www.bilibili.com/video/BV1B64y1q7Cw",
+        "creator_uid": "313580179",
+        "creator_name": "九三的耳朵不是特别好",
+        "value": 47193082
+      },
+      {
+        "bvid": "BV1xQWizoE6k",
+        "title": "当我把家里的门改成了一块屏幕...",
+        "pic": "http://i0.hdslb.com/bfs/archive/31e208f4f7c0e97e910096c9febaaa513cfeb532.jpg",
+        "url": "https://www.bilibili.com/video/BV1xQWizoE6k",
+        "creator_uid": "444728505",
+        "creator_name": "小狮日记",
+        "value": 44554449
+      }
+    ],
+    "top_by_likes": [
+      {
+        "bvid": "BV1qt411j7fV",
+        "title": "【派大星的独白】一个关于正常人的故事",
+        "pic": "http://i1.hdslb.com/bfs/archive/3e2e1e0b3c1108b83148bd2f51b3d28fc94c3b63.jpg",
+        "url": "https://www.bilibili.com/video/BV1qt411j7fV",
+        "creator_uid": "30222764",
+        "creator_name": "洛温阿特金森",
+        "value": 5748283
+      },
+      {
+        "bvid": "BV1yt4y1Q7SS",
+        "title": "敢 杀 我 的 马？！",
+        "pic": "http://i2.hdslb.com/bfs/archive/b1a07a8baefa0694760cd6d99f212bee45d1333d.jpg",
+        "url": "https://www.bilibili.com/video/BV1yt4y1Q7SS",
+        "creator_uid": "59905809",
+        "creator_name": "哦呼w",
+        "value": 5416635
+      },
+      {
+        "bvid": "BV1AM4y1M71p",
+        "title": "破亿纪念!【猛男版】新宝岛 4K高清重置加强版",
+        "pic": "http://i0.hdslb.com/bfs/archive/f28fae0e133f8bb289d719e031891764edb332e1.jpg",
+        "url": "https://www.bilibili.com/video/BV1AM4y1M71p",
+        "creator_uid": "483879799",
+        "creator_name": "猛男舞团IconX",
+        "value": 3339288
+      },
+      {
+        "bvid": "BV1Eb411u7Fw",
+        "title": "《高等数学》同济版 2024年更新|宋浩老师",
+        "pic": "http://i2.hdslb.com/bfs/archive/db56877bf758e92f813c25705b6d5fc0eed20512.jpg",
+        "url": "https://www.bilibili.com/video/BV1Eb411u7Fw",
+        "creator_uid": "66607740",
+        "creator_name": "宋浩老师官方",
+        "value": 3308012
+      },
+      {
+        "bvid": "BV1E7411k7Qy",
+        "title": "曾火遍全网的《溯》，你是否还知道？",
+        "pic": "http://i1.hdslb.com/bfs/archive/c8a201342dba040683468c6069ac4c8faf44cf6c.jpg",
+        "url": "https://www.bilibili.com/video/BV1E7411k7Qy",
+        "creator_uid": "5687194",
+        "creator_name": "银发の半精灵",
+        "value": 3128552
+      },
+      {
+        "bvid": "BV1i4hZebEJW",
+        "title": "“四海翻腾云水怒 五洲震荡风雷激”",
+        "pic": "http://i1.hdslb.com/bfs/archive/f234e4da2460fd31bc07f3759691f6ed53f1bcc6.jpg",
+        "url": "https://www.bilibili.com/video/BV1i4hZebEJW",
+        "creator_uid": "591346027",
+        "creator_name": "向明燃剪",
+        "value": 3099285
+      },
+      {
+        "bvid": "BV178411Y7QB",
+        "title": "鸡 你 太 美 官 方 M V",
+        "pic": "http://i0.hdslb.com/bfs/archive/0683cda0b4c97a5a4bf5877bb2a0ce52f2f1c1f5.jpg",
+        "url": "https://www.bilibili.com/video/BV178411Y7QB",
+        "creator_uid": "59905809",
+        "creator_name": "哦呼w",
+        "value": 3087428
+      },
+      {
+        "bvid": "BV1YA4y1R7RJ",
+        "title": "【罗翔】令人愤怒的唐山打人案涉及什么犯罪？",
+        "pic": "http://i2.hdslb.com/bfs/archive/5c3c2252ff22d9aa4bc6033b2d09cffa8c466751.jpg",
+        "url": "https://www.bilibili.com/video/BV1YA4y1R7RJ",
+        "creator_uid": "517327498",
+        "creator_name": "罗翔说刑法",
+        "value": 2858404
+      },
+      {
+        "bvid": "BV1ZB4y1Y7Hm",
+        "title": "东 汉 变 种 人",
+        "pic": "http://i1.hdslb.com/bfs/archive/ef9fdf7072c842b4fac80b0538c69d800bbd3ce8.jpg",
+        "url": "https://www.bilibili.com/video/BV1ZB4y1Y7Hm",
+        "creator_uid": "21778075",
+        "creator_name": "_青红造了个白_",
+        "value": 2755136
+      },
+      {
+        "bvid": "BV12E411h7A6",
+        "title": "【温柔JUNZ】当事人告诉你豫章书院事件的完整始末！",
+        "pic": "http://i0.hdslb.com/bfs/archive/974d6874f4bcac76c7cf0e8b4dee7f2558af30ea.jpg",
+        "url": "https://www.bilibili.com/video/BV12E411h7A6",
+        "creator_uid": "265059948",
+        "creator_name": "温柔JUNZ",
+        "value": 2686518
+      },
+      {
+        "bvid": "BV1Kz4y1n7af",
+        "title": "“我，（        ），打钱！”",
+        "pic": "http://i1.hdslb.com/bfs/archive/462eda58dd417d23cb7b541e448513b7127a69de.jpg",
+        "url": "https://www.bilibili.com/video/BV1Kz4y1n7af",
+        "creator_uid": "1123353719",
+        "creator_name": "万灵缝合厂",
+        "value": 2611485
+      },
+      {
+        "bvid": "BV1hE41117S6",
+        "title": "【温柔JUNZ】因为曝光豫章书院，我朋友被逼到自杀。",
+        "pic": "http://i1.hdslb.com/bfs/archive/0c62940b1582a3a056d4fbea3ee3d2f0ddd3ab01.jpg",
+        "url": "https://www.bilibili.com/video/BV1hE41117S6",
+        "creator_uid": "265059948",
+        "creator_name": "温柔JUNZ",
+        "value": 2602380
+      },
+      {
+        "bvid": "BV1bz4y1r7Ug",
+        "title": "【罗翔】童话镇",
+        "pic": "http://i1.hdslb.com/bfs/archive/66faf0db298d9e61228283628064212e4c3152f8.jpg",
+        "url": "https://www.bilibili.com/video/BV1bz4y1r7Ug",
+        "creator_uid": "5878572",
+        "creator_name": "核动力路灯",
+        "value": 2535290
+      },
+      {
+        "bvid": "BV1A5411L71X",
+        "title": "哈哈哈哈哈哈【不要笑挑战】",
+        "pic": "http://i2.hdslb.com/bfs/archive/c76aca84628c90199f97608fbed5a4de1793e3d3.jpg",
+        "url": "https://www.bilibili.com/video/BV1A5411L71X",
+        "creator_uid": "13354765",
+        "creator_name": "徐大虾咯",
+        "value": 2528870
+      },
+      {
+        "bvid": "BV1oT4y1671T",
+        "title": "“历史书太小 装不下一个人波澜壮阔的一生   历史书又太大 装下了华夏上下五千年 ”",
+        "pic": "http://i0.hdslb.com/bfs/archive/a29d0b8b081b1ffe90aca727543b528c5cdb4f9d.jpg",
+        "url": "https://www.bilibili.com/video/BV1oT4y1671T",
+        "creator_uid": "34840587",
+        "creator_name": "海棠家的大肥鱼",
+        "value": 2523542
+      },
+      {
+        "bvid": "BV1pi4y147tQ",
+        "title": "最 强 法 海",
+        "pic": "http://i0.hdslb.com/bfs/archive/f1dd52536bc7f23fad5dbb9eae93fcd26d72b38b.png",
+        "url": "https://www.bilibili.com/video/BV1pi4y147tQ",
+        "creator_uid": "96070394",
+        "creator_name": "推背兔の",
+        "value": 2523318
+      },
+      {
+        "bvid": "BV1rY4y137U8",
+        "title": "中500万都没有他笑的开心！",
+        "pic": "http://i0.hdslb.com/bfs/archive/95d28e0904a52a23d6cd8ec353ff6c8fdc153e3d.jpg",
+        "url": "https://www.bilibili.com/video/BV1rY4y137U8",
+        "creator_uid": "386406763",
+        "creator_name": "项真爽",
+        "value": 2477811
+      },
+      {
+        "bvid": "BV1yE411v7Pq",
+        "title": "前方高能！只需10s！我将从你手中抢走硬币！",
+        "pic": "http://i1.hdslb.com/bfs/archive/ce37ddff22ed259a39dad337674b5b2bb8877381.jpg",
+        "url": "https://www.bilibili.com/video/BV1yE411v7Pq",
+        "creator_uid": "114397228",
+        "creator_name": "MJ小林大人嗷",
+        "value": 2477351
+      },
+      {
+        "bvid": "BV1ph4y1g75E",
+        "title": "火柴人 VS 数学(Math)",
+        "pic": "http://i2.hdslb.com/bfs/archive/2191d0f448b0bcbeef08e686acc942698cb69150.jpg",
+        "url": "https://www.bilibili.com/video/BV1ph4y1g75E",
+        "creator_uid": "519253600",
+        "creator_name": "火柴人AlanBecker",
+        "value": 2466015
+      },
+      {
+        "bvid": "BV16F411S7dW",
+        "title": "【老番茄】我结婚啦！！！",
+        "pic": "http://i1.hdslb.com/bfs/archive/c94a1f3f73957d3e3e3b88637ff65b45270566ab.jpg",
+        "url": "https://www.bilibili.com/video/BV16F411S7dW",
+        "creator_uid": "546195",
+        "creator_name": "老番茄",
+        "value": 2465947
+      }
+    ]
+  },
+  "cooperation": {
+    "authors": 2439,
+    "author_rate": 0.4207,
+    "video_associations": 46435,
+    "association_rate": 0.0388,
+    "successful_unique_videos": 1190252,
+    "unique_videos": 38581,
+    "unique_video_rate": 0.0324,
+    "top_by_views": [
+      {
+        "bvid": "BV1E7411k7Qy",
+        "title": "曾火遍全网的《溯》，你是否还知道？",
+        "pic": "http://i1.hdslb.com/bfs/archive/c8a201342dba040683468c6069ac4c8faf44cf6c.jpg",
+        "url": "https://www.bilibili.com/video/BV1E7411k7Qy",
+        "creator_uid": "1542136",
+        "creator_name": "三栗lili",
+        "value": 66829948
+      },
+      {
+        "bvid": "BV1z341187Y9",
+        "title": "《阳光开朗大男孩》",
+        "pic": "http://i0.hdslb.com/bfs/archive/cf68703a3be475ca6d511e11713b5b4baf55c291.jpg",
+        "url": "https://www.bilibili.com/video/BV1z341187Y9",
+        "creator_uid": "2679304",
+        "creator_name": "卦者那啥子靈風",
+        "value": 44356345
+      },
+      {
+        "bvid": "BV1p7411Y7BC",
+        "title": "最强自夸王！！！！！",
+        "pic": "http://i2.hdslb.com/bfs/archive/202bc40ecf4991d21df91f52a2d112eddb977de1.jpg",
+        "url": "https://www.bilibili.com/video/BV1p7411Y7BC",
+        "creator_uid": "1577804",
+        "creator_name": "某幻君",
+        "value": 41409343
+      },
+      {
+        "bvid": "BV1H94y1k7JU",
+        "title": "不要“做”挑战？（第十七期）",
+        "pic": "http://i0.hdslb.com/bfs/archive/208a8f27881bf996680490f9a47d7f8a1eaa2e1a.jpg",
+        "url": "https://www.bilibili.com/video/BV1H94y1k7JU",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 41111403
+      },
+      {
+        "bvid": "BV1Xt4y1N73i",
+        "title": "羊村（1）",
+        "pic": "http://i0.hdslb.com/bfs/archive/8be2dfc1b6713266a5c15a725111838235a402bc.jpg",
+        "url": "https://www.bilibili.com/video/BV1Xt4y1N73i",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 35048762
+      },
+      {
+        "bvid": "BV1ViVBzJERh",
+        "title": "全球第一网红 vs 中国零食！给MrBeast，亿点点中国震撼！",
+        "pic": "http://i2.hdslb.com/bfs/archive/af16478bdb7797496934c37e6bdb25b60bf03eb5.jpg",
+        "url": "https://www.bilibili.com/video/BV1ViVBzJERh",
+        "creator_uid": "447317111",
+        "creator_name": "Meetfood觅食",
+        "value": 34260779
+      },
+      {
+        "bvid": "BV1rA411g7q8",
+        "title": "杰哥不要 官方正版 高清重制",
+        "pic": "http://i2.hdslb.com/bfs/archive/52bfeaf6aa959e05ebbd8803cc55008d57f9bc0d.jpg",
+        "url": "https://www.bilibili.com/video/BV1rA411g7q8",
+        "creator_uid": "455557356",
+        "creator_name": "铁牛杰哥官方频道",
+        "value": 31601069
+      },
+      {
+        "bvid": "BV1vj411W7HY",
+        "title": "羊村第三季（1）",
+        "pic": "http://i1.hdslb.com/bfs/archive/0d0d5766a85bd41bba454844febaf43c92d17061.jpg",
+        "url": "https://www.bilibili.com/video/BV1vj411W7HY",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 31310971
+      },
+      {
+        "bvid": "BV1Ya411b7FB",
+        "title": "谋 权 篡 位 8",
+        "pic": "http://i0.hdslb.com/bfs/archive/a381c5a16368c6ab728f43fd9b0e202a4d811f53.jpg",
+        "url": "https://www.bilibili.com/video/BV1Ya411b7FB",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 30064142
+      },
+      {
+        "bvid": "BV1aG411W7zm",
+        "title": "谋 权 篡 位（番外篇①）",
+        "pic": "http://i0.hdslb.com/bfs/archive/c608616167a75cf9d7883d5824e5774835f6b67a.jpg",
+        "url": "https://www.bilibili.com/video/BV1aG411W7zm",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 29794933
+      },
+      {
+        "bvid": "BV16U4y197eU",
+        "title": "眼“色”游戏 （8）",
+        "pic": "http://i1.hdslb.com/bfs/archive/3659f65e9253da95dc96ec6c7bb4e4a8c038a7c5.jpg",
+        "url": "https://www.bilibili.com/video/BV16U4y197eU",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 29658706
+      },
+      {
+        "bvid": "BV1yG4y1R7aA",
+        "title": "羊村（2）",
+        "pic": "http://i2.hdslb.com/bfs/archive/e573ae281a0bab44bb2ec68c2e6a5320ff295d33.jpg",
+        "url": "https://www.bilibili.com/video/BV1yG4y1R7aA",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 28191750
+      },
+      {
+        "bvid": "BV1CL4y1N7Bp",
+        "title": "汤",
+        "pic": "http://i1.hdslb.com/bfs/archive/42b6473ac1aee19eea063365e3d7b875283a3909.jpg",
+        "url": "https://www.bilibili.com/video/BV1CL4y1N7Bp",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 28130945
+      },
+      {
+        "bvid": "BV1rK421v7ya",
+        "title": "大坏人",
+        "pic": "http://i0.hdslb.com/bfs/archive/dc4d23a027fc003e6ec5048c526842384b1aa214.jpg",
+        "url": "https://www.bilibili.com/video/BV1rK421v7ya",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 27769053
+      },
+      {
+        "bvid": "BV137411B7mQ",
+        "title": "【处处吻】你的老婆可太撩了！世界都馋她一吻",
+        "pic": "http://i0.hdslb.com/bfs/archive/eca71d73ee9f8f78a2288432afb6906640962c01.jpg",
+        "url": "https://www.bilibili.com/video/BV137411B7mQ",
+        "creator_uid": "1826871",
+        "creator_name": "动漫唯美风",
+        "value": 27343910
+      },
+      {
+        "bvid": "BV1YF41197Lj",
+        "title": "谋 权 篡 位（番外篇②）",
+        "pic": "http://i2.hdslb.com/bfs/archive/3bcf9c1e0eab672fc3b73a344ea587ca6e2b691d.jpg",
+        "url": "https://www.bilibili.com/video/BV1YF41197Lj",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 26705177
+      },
+      {
+        "bvid": "BV1wz42167RQ",
+        "title": "偷子（4）",
+        "pic": "http://i1.hdslb.com/bfs/archive/81767803e4d3a1173d5d847435471c58ba2d4a3b.jpg",
+        "url": "https://www.bilibili.com/video/BV1wz42167RQ",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 26010655
+      },
+      {
+        "bvid": "BV1Hg4y157k3",
+        "title": "【闪闪的儿科医生】02 可是，没有如果！",
+        "pic": "http://i1.hdslb.com/bfs/archive/7f40217c0bb7b759040d7c09a9894f6acd00c9bc.jpg",
+        "url": "https://www.bilibili.com/video/BV1Hg4y157k3",
+        "creator_uid": "7584632",
+        "creator_name": "哔哩哔哩纪录片",
+        "value": 25456736
+      },
+      {
+        "bvid": "BV1LsCwY2EEf",
+        "title": "【纪录片】生命奇观 02 马来西亚雨林",
+        "pic": "http://i2.hdslb.com/bfs/archive/3a536e5cadd1421840ad435f2b7ba345269003f4.jpg",
+        "url": "https://www.bilibili.com/video/BV1LsCwY2EEf",
+        "creator_uid": "7584632",
+        "creator_name": "哔哩哔哩纪录片",
+        "value": 25382728
+      },
+      {
+        "bvid": "BV1gT4y1A7zR",
+        "title": "戏 耍 小 潮 院 长",
+        "pic": "http://i0.hdslb.com/bfs/archive/2280818942de76fd34d8aca97ae1f7c0fd47d952.jpg",
+        "url": "https://www.bilibili.com/video/BV1gT4y1A7zR",
+        "creator_uid": "279583114",
+        "creator_name": "老坛胡说",
+        "value": 25323392
+      }
+    ],
+    "top_by_likes": [
+      {
+        "bvid": "BV1E7411k7Qy",
+        "title": "曾火遍全网的《溯》，你是否还知道？",
+        "pic": "http://i1.hdslb.com/bfs/archive/c8a201342dba040683468c6069ac4c8faf44cf6c.jpg",
+        "url": "https://www.bilibili.com/video/BV1E7411k7Qy",
+        "creator_uid": "1542136",
+        "creator_name": "三栗lili",
+        "value": 3128552
+      },
+      {
+        "bvid": "BV1Kh411t7dZ",
+        "title": "史上最离谱随机挑战！我们终于去老番茄家蹭饭了！！【第七期】",
+        "pic": "http://i0.hdslb.com/bfs/archive/ed1a825b8b41a771d59bc4f7b1cba8527d8501fd.jpg",
+        "url": "https://www.bilibili.com/video/BV1Kh411t7dZ",
+        "creator_uid": "147166910",
+        "creator_name": "雨哥到处跑",
+        "value": 2265505
+      },
+      {
+        "bvid": "BV1p7411Y7BC",
+        "title": "最强自夸王！！！！！",
+        "pic": "http://i2.hdslb.com/bfs/archive/202bc40ecf4991d21df91f52a2d112eddb977de1.jpg",
+        "url": "https://www.bilibili.com/video/BV1p7411Y7BC",
+        "creator_uid": "1577804",
+        "creator_name": "某幻君",
+        "value": 1968841
+      },
+      {
+        "bvid": "BV1ED4y1Y7dc",
+        "title": "一位粉丝想看到自己奔跑的样子",
+        "pic": "http://i0.hdslb.com/bfs/archive/937f11ce1ddf148be74a772fbd1b5a9d32e462c8.jpg",
+        "url": "https://www.bilibili.com/video/BV1ED4y1Y7dc",
+        "creator_uid": "946974",
+        "creator_name": "影视飓风",
+        "value": 1901484
+      },
+      {
+        "bvid": "BV1xu411Z7gc",
+        "title": "太夸张了！！随机挑战居然把王嘉尔请到了我家！！",
+        "pic": "http://i1.hdslb.com/bfs/archive/75da889565354d4f5cfd07fa8ff56bbf2ab2c544.jpg",
+        "url": "https://www.bilibili.com/video/BV1xu411Z7gc",
+        "creator_uid": "7552204",
+        "creator_name": "啊吗粽",
+        "value": 1808885
+      },
+      {
+        "bvid": "BV1N3411b7Bo",
+        "title": "离大谱！随机帮别人实现梦想，竟然跑断了腿(物理)！",
+        "pic": "http://i0.hdslb.com/bfs/archive/4b49d94599d2aff64e76e5a8e1f7bb38ff195b61.jpg",
+        "url": "https://www.bilibili.com/video/BV1N3411b7Bo",
+        "creator_uid": "546195",
+        "creator_name": "老番茄",
+        "value": 1776181
+      },
+      {
+        "bvid": "BV1z341187Y9",
+        "title": "《阳光开朗大男孩》",
+        "pic": "http://i0.hdslb.com/bfs/archive/cf68703a3be475ca6d511e11713b5b4baf55c291.jpg",
+        "url": "https://www.bilibili.com/video/BV1z341187Y9",
+        "creator_uid": "2679304",
+        "creator_name": "卦者那啥子靈風",
+        "value": 1683373
+      },
+      {
+        "bvid": "BV1gAN9euEez",
+        "title": "《 从 来 如 此 ， 便 对 么 ？》",
+        "pic": "http://i2.hdslb.com/bfs/archive/3e0863098ef9b926f023b548f9da16476a0cde55.jpg",
+        "url": "https://www.bilibili.com/video/BV1gAN9euEez",
+        "creator_uid": "59905809",
+        "creator_name": "哦呼w",
+        "value": 1657538
+      },
+      {
+        "bvid": "BV17VZpY1ENA",
+        "title": "给我们的组合起个名！",
+        "pic": "http://i1.hdslb.com/bfs/archive/51bc7808f99e37cff17c16e0b181b98b13b67ddd.jpg",
+        "url": "https://www.bilibili.com/video/BV17VZpY1ENA",
+        "creator_uid": "477676711",
+        "creator_name": "田一名sir",
+        "value": 1533887
+      },
+      {
+        "bvid": "BV1hv411C7jk",
+        "title": "这是个音乐游戏？？",
+        "pic": "http://i1.hdslb.com/bfs/archive/8470a4e49c147534f7c257db1c72a480db79ad40.jpg",
+        "url": "https://www.bilibili.com/video/BV1hv411C7jk",
+        "creator_uid": "59905809",
+        "creator_name": "哦呼w",
+        "value": 1396191
+      },
+      {
+        "bvid": "BV1oZ4y1D7W7",
+        "title": "离大谱！为了实现他的梦想，我们变了脸色(物理)！",
+        "pic": "http://i0.hdslb.com/bfs/archive/2a1e9d7c3c1de3a57abfee4738b617c6517c6fd8.jpg",
+        "url": "https://www.bilibili.com/video/BV1oZ4y1D7W7",
+        "creator_uid": "1577804",
+        "creator_name": "某幻君",
+        "value": 1356781
+      },
+      {
+        "bvid": "BV1aG411W7zm",
+        "title": "谋 权 篡 位（番外篇①）",
+        "pic": "http://i0.hdslb.com/bfs/archive/c608616167a75cf9d7883d5824e5774835f6b67a.jpg",
+        "url": "https://www.bilibili.com/video/BV1aG411W7zm",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 1355338
+      },
+      {
+        "bvid": "BV1oc411c7nW",
+        "title": "曝光造假臭豆腐？事实究竟如何？",
+        "pic": "http://i0.hdslb.com/bfs/archive/6637fb92d45373528f6f1bd0e75df9c97da3ff0f.jpg",
+        "url": "https://www.bilibili.com/video/BV1oc411c7nW",
+        "creator_uid": "439478093",
+        "creator_name": "中国食品报融媒体",
+        "value": 1337595
+      },
+      {
+        "bvid": "BV1rA411g7q8",
+        "title": "杰哥不要 官方正版 高清重制",
+        "pic": "http://i2.hdslb.com/bfs/archive/52bfeaf6aa959e05ebbd8803cc55008d57f9bc0d.jpg",
+        "url": "https://www.bilibili.com/video/BV1rA411g7q8",
+        "creator_uid": "455557356",
+        "creator_name": "铁牛杰哥官方频道",
+        "value": 1319648
+      },
+      {
+        "bvid": "BV1Pq4y1K73W",
+        "title": "大唐Gang 2.0",
+        "pic": "http://i1.hdslb.com/bfs/archive/90e20fe79f107802d20b025ceb663f92761a5e91.jpg",
+        "url": "https://www.bilibili.com/video/BV1Pq4y1K73W",
+        "creator_uid": "40966108",
+        "creator_name": "倒悬的橘子",
+        "value": 1302832
+      },
+      {
+        "bvid": "BV1a24y167fo",
+        "title": "2023我的世界拜年纪",
+        "pic": "http://i0.hdslb.com/bfs/archive/c0722388f336bdab3c0c66464c832f3acd7f06dd.jpg",
+        "url": "https://www.bilibili.com/video/BV1a24y167fo",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 1224739
+      },
+      {
+        "bvid": "BV1H94y1k7JU",
+        "title": "不要“做”挑战？（第十七期）",
+        "pic": "http://i0.hdslb.com/bfs/archive/208a8f27881bf996680490f9a47d7f8a1eaa2e1a.jpg",
+        "url": "https://www.bilibili.com/video/BV1H94y1k7JU",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 1201276
+      },
+      {
+        "bvid": "BV1za4y1a7JZ",
+        "title": "【4K60帧】有生之年！周深演绎《unravel》BML现场圆梦【BML2020单品】",
+        "pic": "http://i0.hdslb.com/bfs/archive/c4b386526e6f3c16a911d3059f63ee84fc5fef3e.jpg",
+        "url": "https://www.bilibili.com/video/BV1za4y1a7JZ",
+        "creator_uid": "403748305",
+        "creator_name": "BML制作指挥部",
+        "value": 1199603
+      },
+      {
+        "bvid": "BV19k4y1r75k",
+        "title": "最强尴尬王！！！！！！",
+        "pic": "http://i2.hdslb.com/bfs/archive/2dc50a17cd035ca359405c23dbaedc398b167460.jpg",
+        "url": "https://www.bilibili.com/video/BV19k4y1r75k",
+        "creator_uid": "1577804",
+        "creator_name": "某幻君",
+        "value": 1185180
+      },
+      {
+        "bvid": "BV1Xt4y1N73i",
+        "title": "羊村（1）",
+        "pic": "http://i0.hdslb.com/bfs/archive/8be2dfc1b6713266a5c15a725111838235a402bc.jpg",
+        "url": "https://www.bilibili.com/video/BV1Xt4y1N73i",
+        "creator_uid": "5970160",
+        "creator_name": "小潮院长",
+        "value": 1176455
+      }
+    ]
+  },
+  "ai_usage": {
+    "videos": 38379,
+    "video_rate": 0.032,
+    "authors": 1854,
+    "author_rate": 0.3198,
+    "argue_info_videos": 105916,
+    "category_counts": {
+      "author_declared": 10709,
+      "platform_labeled": 23248,
+      "suspected": 4422
+    },
+    "notice_counts": {
+      "含AI生成内容": 23248,
+      "个人观点，仅供参考": 22169,
+      "含虚构演绎内容": 15990,
+      "作者声明：个人观点，仅供参考": 11790,
+      "作者声明：该视频使用人工智能合成技术": 10709,
+      "作者声明：该内容仅供娱乐，请勿过分解读": 8606,
+      "该内容疑似使用AI技术合成，请谨慎甄别": 4422,
+      "作者声明：视频内含有危险行为，请勿轻易模仿": 2294,
+      "视频内含有危险行为，请勿模仿": 1118,
+      "作者声明：该内容可能引人不适，请谨慎选择观看": 1109,
+      "温馨提示：过量饮酒，有害健康": 984,
+      "作者声明：请理性适度消费": 810,
+      "专业动作，非专业人士请勿模仿": 691,
+      "此内容可能引起不适，请谨慎观看": 678,
+      "内容含营销信息": 272,
+      "该内容涉及未经科学验证的现象、观点，请注意甄别": 227,
+      "视频内推荐产品未成年人不得购买": 177,
+      "理财有风险，投资需谨慎": 148,
+      "内容仅供参考，身体不适请线下就医": 117,
+      "吸烟有害健康，未成年人请勿吸烟": 76,
+      "投资有风险，请谨慎甄别": 70,
+      "该内容存在风险，请勿轻易模仿": 22,
+      "本视频包含争议性内容，为避免误导，请谨慎甄别": 20,
+      "投诉方已对该视频发起侵权投诉，视频内容涉及争议，请注意甄别": 19,
+      "珍惜粮食，杜绝浪费": 18,
+      "该内容真实性存疑，请谨慎甄别": 18,
+      "该视频中部分内容暂无法核实真实性，请谨慎甄别": 16,
+      "该视频引用素材来源于网络": 15,
+      "该内容表述易造成误解，请谨慎甄别": 11,
+      "网络交易套路深，买卖账号需谨慎": 11,
+      "长期大量咀嚼槟榔有害健康": 10,
+      "校园霸凌属于违法行为，请及时寻求救助": 8,
+      "未成年人谨慎观看，请勿模仿": 7,
+      "视频观点包含引战内容，请理性判断，谨防煽动": 6,
+      "该行为存在一定风险，请勿模仿，注意安全": 6,
+      "视频包含交易内容，请谨慎处理，防止财产损失": 5,
+      "该物品可能有儿童误食风险，请监护人谨慎甄别": 4,
+      "该内容涉及争议": 4,
+      "投诉方对视频发起侵权投诉，视频内容涉及争议": 3,
+      "平台检测到异常互动行为，重点巡查中，请勿发布违规言论": 3,
+      "投诉方已对该视频发起侵权投诉，表示对视频内容有异议": 1,
+      "该内容涉及剧情演绎，请勿混淆": 1,
+      "个人经历仅供参考，身体不适请线下就医": 1,
+      "该内容涉及兼职信息，请谨慎甄别": 1,
+      "该内容涉及抽奖或领奖类信息，请谨慎甄别": 1
+    },
+    "year_counts": {
+      "2022": 11,
+      "2023": 103,
+      "2024": 1267,
+      "2025": 5672,
+      "2026": 31326
+    },
+    "metrics": {
+      "ai": {
+        "duration": {
+          "count": 38379,
+          "missing": 0,
+          "min": 4,
+          "max": 33730,
+          "sum": 7539761,
+          "mean": 196.46,
+          "std_dev": 541.39
+        },
+        "view": {
+          "count": 38379,
+          "missing": 0,
+          "min": 0,
+          "max": 25365091,
+          "sum": 13303454814,
+          "mean": 346633.7,
+          "std_dev": 998450.5
+        },
+        "like": {
+          "count": 38379,
+          "missing": 0,
+          "min": 0,
+          "max": 1898143,
+          "sum": 549913043,
+          "mean": 14328.49,
+          "std_dev": 44515.25
+        },
+        "coin": {
+          "count": 38379,
+          "missing": 0,
+          "min": 0,
+          "max": 742830,
+          "sum": 54389839,
+          "mean": 1417.18,
+          "std_dev": 9997.01
+        },
+        "favorite": {
+          "count": 38379,
+          "missing": 0,
+          "min": 0,
+          "max": 706298,
+          "sum": 158042268,
+          "mean": 4117.94,
+          "std_dev": 16430.34
+        },
+        "share": {
+          "count": 38379,
+          "missing": 0,
+          "min": 0,
+          "max": 284431,
+          "sum": 43241592,
+          "mean": 1126.7,
+          "std_dev": 6297.14
+        },
+        "danmaku": {
+          "count": 38379,
+          "missing": 0,
+          "min": 0,
+          "max": 255202,
+          "sum": 12096402,
+          "mean": 315.18,
+          "std_dev": 2541.58
+        },
+        "reply": {
+          "count": 38379,
+          "missing": 0,
+          "min": 0,
+          "max": 33006,
+          "sum": 14046262,
+          "mean": 365.99,
+          "std_dev": 1152.32
+        }
+      },
+      "non_ai": {
+        "duration": {
+          "count": 1159728,
+          "missing": 0,
+          "min": 0,
+          "max": 3654091,
+          "sum": 520133707,
+          "mean": 448.5,
+          "std_dev": 4823.45
+        },
+        "view": {
+          "count": 1159728,
+          "missing": 0,
+          "min": 0,
+          "max": 202486535,
+          "sum": 505830151438,
+          "mean": 436162.75,
+          "std_dev": 1187879.76
+        },
+        "like": {
+          "count": 1159728,
+          "missing": 0,
+          "min": 0,
+          "max": 5748283,
+          "sum": 24047870360,
+          "mean": 20735.78,
+          "std_dev": 56816.28
+        },
+        "coin": {
+          "count": 1159728,
+          "missing": 0,
+          "min": 0,
+          "max": 5830869,
+          "sum": 4347243723,
+          "mean": 3748.5,
+          "std_dev": 26335.62
+        },
+        "favorite": {
+          "count": 1159728,
+          "missing": 0,
+          "min": 0,
+          "max": 3555546,
+          "sum": 5809893498,
+          "mean": 5009.7,
+          "std_dev": 21930.08
+        },
+        "share": {
+          "count": 1159728,
+          "missing": 0,
+          "min": 0,
+          "max": 1214251,
+          "sum": 1184830890,
+          "mean": 1021.65,
+          "std_dev": 6145.97
+        },
+        "danmaku": {
+          "count": 1159728,
+          "missing": 0,
+          "min": 0,
+          "max": 12574292,
+          "sum": 1549640181,
+          "mean": 1336.21,
+          "std_dev": 20947.07
+        },
+        "reply": {
+          "count": 1159728,
+          "missing": 0,
+          "min": 0,
+          "max": 7903462,
+          "sum": 695571839,
+          "mean": 599.77,
+          "std_dev": 8813.86
+        }
+      }
+    },
+    "top_by_views": [
+      {
+        "bvid": "BV1bXAJz8EYC",
+        "title": "⚡对 对 子 战 神⚡",
+        "pic": "http://i1.hdslb.com/bfs/archive/df1623b4d47e047538776d05121c3882191ba2f9.jpg",
+        "url": "https://www.bilibili.com/video/BV1bXAJz8EYC",
+        "creator_uid": "30222764",
+        "creator_name": "洛温阿特金森",
+        "ai_notice": "作者声明：该视频使用人工智能合成技术",
+        "value": 25365091
+      },
+      {
+        "bvid": "BV15YdBB6Efz",
+        "title": "楚人美游记 1-5 合集：当楚人美被孙悟空拐去取经【UP动画】",
+        "pic": "http://i2.hdslb.com/bfs/archive/c710f4f7ea8f9f1bd84be03a2c341d2afd3ccb86.jpg",
+        "url": "https://www.bilibili.com/video/BV15YdBB6Efz",
+        "creator_uid": "1938616426",
+        "creator_name": "安奇米苏",
+        "ai_notice": "作者声明：该视频使用人工智能合成技术",
+        "value": 25025556
+      },
+      {
+        "bvid": "BV11mFLziEyP",
+        "title": "【牌子】当世界过分“诚实”，我们要如何保持好奇与勇气【B站AI创作大赛-开放赛道】",
+        "pic": "http://i0.hdslb.com/bfs/archive/0e4958db1618d69d05cbf269dd7e9dd615f5821d.jpg",
+        "url": "https://www.bilibili.com/video/BV11mFLziEyP",
+        "creator_uid": "412615990",
+        "creator_name": "DiDi_OK",
+        "ai_notice": "该内容疑似使用AI技术合成，请谨慎甄别",
+        "value": 21102733
+      },
+      {
+        "bvid": "BV1CcG96sEbc",
+        "title": "“拒绝道德绑架，末世生存指南来了”",
+        "pic": "http://i2.hdslb.com/bfs/archive/e6721a2d1d46d858d5084998fcf27e95a854f194.jpg",
+        "url": "https://www.bilibili.com/video/BV1CcG96sEbc",
+        "creator_uid": "3546661399824534",
+        "creator_name": "醉心日推音乐",
+        "ai_notice": "该内容疑似使用AI技术合成，请谨慎甄别",
+        "value": 19553136
+      },
+      {
+        "bvid": "BV16Njd6NE1D",
+        "title": "【燃曲合集】“不要小瞧我们之间的羁绊”",
+        "pic": "http://i1.hdslb.com/bfs/archive/6d5494d5b0ae8c0c6b9bfb3bc28df09774da3bd8.jpg",
+        "url": "https://www.bilibili.com/video/BV16Njd6NE1D",
+        "creator_uid": "88082801",
+        "creator_name": "挽风丶Sama",
+        "ai_notice": "含AI生成内容",
+        "value": 18737279
+      },
+      {
+        "bvid": "BV1AfjF6DEwn",
+        "title": "“安和桥从不打低端局”",
+        "pic": "http://i0.hdslb.com/bfs/archive/69cee3e9ee75d191371e46e4ec1f83dc8193dd7d.jpg",
+        "url": "https://www.bilibili.com/video/BV1AfjF6DEwn",
+        "creator_uid": "3546661399824534",
+        "creator_name": "醉心日推音乐",
+        "ai_notice": "该内容疑似使用AI技术合成，请谨慎甄别",
+        "value": 18426507
+      },
+      {
+        "bvid": "BV14djF6XEFM",
+        "title": "“你是谁的大人 又是谁的小孩.”|《烟火里的尘埃》循环歌单",
+        "pic": "http://i2.hdslb.com/bfs/archive/94a5902b90d2111ba6d62c9accae755ca8640217.jpg",
+        "url": "https://www.bilibili.com/video/BV14djF6XEFM",
+        "creator_uid": "523063259",
+        "creator_name": "一支yuuu",
+        "ai_notice": "含AI生成内容",
+        "value": 17917518
+      },
+      {
+        "bvid": "BV18yGt6FE9a",
+        "title": "见面次数等于1，代表什么...",
+        "pic": "http://i0.hdslb.com/bfs/archive/28e12f2c5b81af8bce9a9f031ce72a2f26f70b59.jpg",
+        "url": "https://www.bilibili.com/video/BV18yGt6FE9a",
+        "creator_uid": "419121167",
+        "creator_name": "-勾魂公狒狒-",
+        "ai_notice": "含AI生成内容",
+        "value": 17910265
+      },
+      {
+        "bvid": "BV1gFK36eEni",
+        "title": "“我唯一能见到你的方式，他们却说是臆想症”",
+        "pic": "http://i1.hdslb.com/bfs/archive/7cb1fe6041d1c8592641cb9e78c44ff5bb80a97c.jpg",
+        "url": "https://www.bilibili.com/video/BV1gFK36eEni",
+        "creator_uid": "3546661399824534",
+        "creator_name": "醉心日推音乐",
+        "ai_notice": "含AI生成内容",
+        "value": 17626145
+      },
+      {
+        "bvid": "BV19EKA6EEqs",
+        "title": "“为什么都说没钱不配生小孩？”",
+        "pic": "http://i1.hdslb.com/bfs/archive/2330e8bbc7a10b9bf1a5499893aa616740fafa7f.jpg",
+        "url": "https://www.bilibili.com/video/BV19EKA6EEqs",
+        "creator_uid": "3546661399824534",
+        "creator_name": "醉心日推音乐",
+        "ai_notice": "含AI生成内容",
+        "value": 17376489
+      },
+      {
+        "bvid": "BV1Et7K6FEBL",
+        "title": "“只要还走得动，我就要为乡亲们看病一辈子”",
+        "pic": "http://i2.hdslb.com/bfs/archive/dc5f248330a0869936fd4c6773b83c199ce18c52.jpg",
+        "url": "https://www.bilibili.com/video/BV1Et7K6FEBL",
+        "creator_uid": "3546661399824534",
+        "creator_name": "醉心日推音乐",
+        "ai_notice": "该内容疑似使用AI技术合成，请谨慎甄别",
+        "value": 17222131
+      },
+      {
+        "bvid": "BV1d2Go6nEnj",
+        "title": "\"小麦，我一定会找到完美时间线的！”",
+        "pic": "http://i2.hdslb.com/bfs/archive/54aa6f14a6a42fbf81de57fe901f973717493bd0.jpg",
+        "url": "https://www.bilibili.com/video/BV1d2Go6nEnj",
+        "creator_uid": "2175690",
+        "creator_name": "徐Toso",
+        "ai_notice": "该内容疑似使用AI技术合成，请谨慎甄别",
+        "value": 17025159
+      },
+      {
+        "bvid": "BV1jDcBzdErM",
+        "title": "干嘛猫的vlog（和小伙伴出来玩！主题是快乐！）",
+        "pic": "http://i0.hdslb.com/bfs/archive/325a790beb6f718d7b32094a7833ec7dbf432033.jpg",
+        "url": "https://www.bilibili.com/video/BV1jDcBzdErM",
+        "creator_uid": "3632303408417140",
+        "creator_name": "荒蛋记录员",
+        "ai_notice": "作者声明：该视频使用人工智能合成技术",
+        "value": 16803036
+      },
+      {
+        "bvid": "BV1fbNz6WEjD",
+        "title": "当你学会外耗他人后",
+        "pic": "http://i2.hdslb.com/bfs/archive/4f3f5ee57c3f70e5ec592896c86c3f46b3cae60d.jpg",
+        "url": "https://www.bilibili.com/video/BV1fbNz6WEjD",
+        "creator_uid": "19072897",
+        "creator_name": "无奈の老王君",
+        "ai_notice": "含AI生成内容",
+        "value": 16776630
+      },
+      {
+        "bvid": "BV1NnNr6BEGR",
+        "title": "【复制铜镜全系列合集】ai软件生成，剧情虚构，非官方）正片+番外+解说+彩蛋",
+        "pic": "http://i2.hdslb.com/bfs/archive/8bd4923558ccab1d0bf214d911972fc5b0a67f11.jpg",
+        "url": "https://www.bilibili.com/video/BV1NnNr6BEGR",
+        "creator_uid": "1766786167",
+        "creator_name": "强哥的小汤圆",
+        "ai_notice": "含AI生成内容",
+        "value": 15731533
+      },
+      {
+        "bvid": "BV14iKU6eEiS",
+        "title": "一味退让不会得到沉默，一味包容不会得到尊重",
+        "pic": "http://i0.hdslb.com/bfs/archive/ca9b6b452c769a488eb4a9b0aec4d733d0814ef4.jpg",
+        "url": "https://www.bilibili.com/video/BV14iKU6eEiS",
+        "creator_uid": "437316738",
+        "creator_name": "朱一旦的枯燥生活",
+        "ai_notice": "含AI生成内容",
+        "value": 15617599
+      },
+      {
+        "bvid": "BV1zuTn6GEFk",
+        "title": "“穷人最大的托举，是不让苦难代代相传”",
+        "pic": "http://i1.hdslb.com/bfs/archive/84e494f4a88a1367e6cf9b8d7701051160eca6ff.jpg",
+        "url": "https://www.bilibili.com/video/BV1zuTn6GEFk",
+        "creator_uid": "3546661399824534",
+        "creator_name": "醉心日推音乐",
+        "ai_notice": "含AI生成内容",
+        "value": 15595843
+      },
+      {
+        "bvid": "BV1s1V86cEn3",
+        "title": "带我的刀盾和香蕉猫比比拉布去赶海，太多神奇海鲜了！",
+        "pic": "http://i0.hdslb.com/bfs/archive/1bdeb03986341360e02f5ae4055243c134f169aa.jpg",
+        "url": "https://www.bilibili.com/video/BV1s1V86cEn3",
+        "creator_uid": "1674328",
+        "creator_name": "宋澈澈澈",
+        "ai_notice": "含AI生成内容",
+        "value": 15321114
+      },
+      {
+        "bvid": "BV1JK7N6xEtw",
+        "title": "秦始皇：你说徭役徭是吧？",
+        "pic": "http://i1.hdslb.com/bfs/archive/96932ddc2788a5657b0b9ed1f62f4960eb835b2a.jpg",
+        "url": "https://www.bilibili.com/video/BV1JK7N6xEtw",
+        "creator_uid": "24275198",
+        "creator_name": "清风最梦",
+        "ai_notice": "该内容疑似使用AI技术合成，请谨慎甄别",
+        "value": 14415616
+      },
+      {
+        "bvid": "BV1RwdhBmE3M",
+        "title": "郝 哥 不 在",
+        "pic": "http://i2.hdslb.com/bfs/archive/b660ad582fae56bb06b4029e49dc83302864f6d4.jpg",
+        "url": "https://www.bilibili.com/video/BV1RwdhBmE3M",
+        "creator_uid": "438256074",
+        "creator_name": "岩罗Crv",
+        "ai_notice": "作者声明：该视频使用人工智能合成技术",
+        "value": 14137832
+      }
+    ]
+  },
+  "batches": {
+    "video_batches_0": {
+      "authors": 499,
+      "authors_partial_failed": 88,
+      "authors_success": 411,
+      "videos": 105476,
+      "videos_failed": 682,
+      "videos_success": 104794
+    },
+    "video_batches_1": {
+      "authors": 499,
+      "authors_partial_failed": 81,
+      "authors_success": 418,
+      "videos": 102426,
+      "videos_failed": 833,
+      "videos_success": 101593
+    },
+    "video_batches_10": {
+      "authors": 500,
+      "authors_partial_failed": 75,
+      "authors_success": 425,
+      "videos": 104626,
+      "videos_failed": 826,
+      "videos_success": 103800
+    },
+    "video_batches_11": {
+      "authors": 306,
+      "authors_partial_failed": 57,
+      "authors_success": 249,
+      "videos": 62276,
+      "videos_failed": 608,
+      "videos_success": 61668
+    },
+    "video_batches_2": {
+      "authors": 500,
+      "authors_partial_failed": 78,
+      "authors_success": 422,
+      "videos": 100930,
+      "videos_failed": 693,
+      "videos_success": 100237
+    },
+    "video_batches_3": {
+      "authors": 498,
+      "authors_partial_failed": 78,
+      "authors_success": 420,
+      "videos": 105033,
+      "videos_failed": 269,
+      "videos_success": 104764
+    },
+    "video_batches_4": {
+      "authors": 498,
+      "authors_partial_failed": 77,
+      "authors_success": 421,
+      "videos": 103598,
+      "videos_failed": 464,
+      "videos_success": 103134
+    },
+    "video_batches_5": {
+      "authors": 500,
+      "authors_partial_failed": 93,
+      "authors_success": 407,
+      "videos": 99925,
+      "videos_failed": 1102,
+      "videos_success": 98823
+    },
+    "video_batches_6": {
+      "authors": 498,
+      "authors_partial_failed": 75,
+      "authors_success": 423,
+      "videos": 104766,
+      "videos_failed": 325,
+      "videos_success": 104441
+    },
+    "video_batches_7": {
+      "authors": 500,
+      "authors_partial_failed": 81,
+      "authors_success": 419,
+      "videos": 102606,
+      "videos_failed": 1032,
+      "videos_success": 101574
+    },
+    "video_batches_8": {
+      "authors": 500,
+      "authors_partial_failed": 96,
+      "authors_success": 404,
+      "videos": 107017,
+      "videos_failed": 1009,
+      "videos_success": 106008
+    },
+    "video_batches_9": {
+      "authors": 500,
+      "authors_partial_failed": 92,
+      "authors_success": 408,
+      "videos": 107925,
+      "videos_failed": 654,
+      "videos_success": 107271
+    }
+  }
+}

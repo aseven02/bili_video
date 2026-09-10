@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="359" viewBox="0 0 1000 359">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Noto Sans CJK SC",sans-serif;fill:#18191c;font-size:15px}</style>
+<text x="24" y="38" font-size="22" font-weight="700">作者等级分布</text>
+<text x="173" y="95" text-anchor="end">0</text>
+<rect x="185" y="77" width="10.7" height="25" rx="3" fill="#FB7299"/>
+<text x="204.7138047138047" y="95">74</text>
+<text x="173" y="137" text-anchor="end">2</text>
+<rect x="185" y="119" width="11.7" height="25" rx="3" fill="#FB7299"/>
+<text x="205.72727272727272" y="137">81</text>
+<text x="173" y="179" text-anchor="end">3</text>
+<rect x="185" y="161" width="29.7" height="25" rx="3" fill="#FB7299"/>
+<text x="223.68013468013467" y="179">205</text>
+<text x="173" y="221" text-anchor="end">4</text>
+<rect x="185" y="203" width="44.0" height="25" rx="3" fill="#FB7299"/>
+<text x="238.013468013468" y="221">304</text>
+<text x="173" y="263" text-anchor="end">5</text>
+<rect x="185" y="245" width="98.3" height="25" rx="3" fill="#FB7299"/>
+<text x="292.3063973063973" y="263">679</text>
+<text x="173" y="305" text-anchor="end">6</text>
+<rect x="185" y="287" width="645.0" height="25" rx="3" fill="#FB7299"/>
+<text x="839.0" y="305">4,455</text>
+</svg>

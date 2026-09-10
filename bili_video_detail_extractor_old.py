@@ -28,7 +28,7 @@ from tqdm import tqdm
 import httpx
 from playwright.async_api import async_playwright
 
-from bili_creator_demo import (
+from bili_creator_extractor import (
     BILI_API,
     BILI_HOME,
     DEFAULT_USER_AGENT,

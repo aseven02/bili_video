@@ -1,27 +1,50 @@
 import httpx
 import json
+from pathlib import Path
 
-url = f'https://www.douyin.com/aweme/v1/web/series/aweme/?device_platform=webapp&aid=6383&channel=channel_pc_web&series_id=7671241407029479470&pull_type=2&cursor=0&source=playlet_homepage_hot&count=6&update_version_code=170400&pc_client_type=1&pc_libra_divert=Mac&support_h265=1&support_dash=1&cpu_core_num=8&version_code=170400&version_name=17.4.0&cookie_enabled=true&screen_width=2560&screen_height=1440&browser_language=zh-CN&browser_platform=MacIntel&browser_name=Chrome&browser_version=152.0.0.0&browser_online=true&engine_name=Blink&engine_version=152.0.0.0&os_name=Mac+OS&os_version=10.15.7&device_memory=32&platform=PC&downlink=10&effective_type=4g&round_trip_time=50&webid=7683742127989982754&uifid=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a6e54d4d6d4a1b04133846b273c76e238c16c98b3966a762c183e7dfc4e9d7d7b5446fec94d93043498790bd54ea22f8c547cf7f5f4b0fce1159f6dabd40f08c2c134fb0e002b9c454ba2ec7fe000d6d1b2e64b6a52c326e77053247623fed17a1323d7fa02ddfbcd0f058bf68e28b897160635c454b6571feb101f573d8ef1f4&verifyFp=verify_mtuyqn4u_TFYWMJUh_M0ms_4NoA_8BjV_iw0YGFfSemWK&fp=verify_mtuyqn4u_TFYWMJUh_M0ms_4NoA_8BjV_iw0YGFfSemWK&msToken=dZr3FezkBS2vu27gxysEFBWw5WNUjnu4XzCgAUYvEtq4cT-Dhbgo_C5MP__EnpLbglXYIvjY46hqiAtwZ-kT5tytfWmEx-WfQED8H01-F-v-UZ4zjHwJJFTkbqvlv6WfWLPsBMHICDLOeTcsBe2hkP15PIR_dwzx4IoU05wsYO5qEGbsz04zBg%3D%3D&a_bogus=mJ05hzyyQo8VcVKtYcxASfolTuVMrs8y-eTORPrPCOKEyheYMRPrQneyjoFESsRGS8B0hql7wnaAbfdbN0XkpenkwmpfSiTR5WxC9X0LMqwpTUwdEHfzCwgPtJGY0c4o8OojJA6V10OO2DC4LZasUp-ytKi74OvdKHa6dcUaT9ev6MG9TZZqPwXAcDSFUarhQzhSHej%3D'
+url = f'https://www.douyin.com/aweme/v1/web/series/aweme/'
+url2 = f'https://www.douyin.com/aweme/v1/web/series/detail'
 
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    'device-platform': 'webapp',
-    'cookie': f'enter_pc_once=1; UIFID_TEMP=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a6e54d4d6d4a1b04133846b273c76e23812946586976e0eb3493daf361b2a58ece0e43dc19a3bf660c47b0ca2d998d726; x-web-secsdk-uid=bf29aa55-40b6-4deb-a09a-f374b8f17669; s_v_web_id=verify_mtuyqn4u_TFYWMJUh_M0ms_4NoA_8BjV_iw0YGFfSemWK; hevc_supported=true; douyin.com; device_web_cpu_core=8; device_web_memory_size=32; is_support_rtm_web_ts=1; dy_swidth=2560; dy_sheight=1440; odin_tt=1d5333efbbf7f9112c8cace058dc73c5127baa7d919cffdff522c5725c2d0690d1373afb14bf24d32b9d88e2da52601c6f3209d0c7430b0b53b71a6ad28666e10966811dc2e772e73064132296e6b105; strategyABtestKey=%221789010634.473%22; fpk1=U2FsdGVkX1+v+R5ScK0IyIKSIcMlSIjzb1eBlqlZK5G+nOuiIKfLuS7vZOlEbK+xJY0Lamt1dZ2rj40bw0EXOQ==; fpk2=b8686dc00110378d4f62d0eaf9196000; passport_csrf_token=9717694d2229cad038ff8294f49c7ad7; passport_csrf_token_default=9717694d2229cad038ff8294f49c7ad7; __security_mc_1_s_sdk_crypt_sdk=5485b07c-4c71-b32c; bd_ticket_guard_regenerate_keys_time=2026-09-10/11:23:56; bd_ticket_guard_client_web_domain=2; is_dash_user=1; UIFID=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a6e54d4d6d4a1b04133846b273c76e238c16c98b3966a762c183e7dfc4e9d7d7b5446fec94d93043498790bd54ea22f8c547cf7f5f4b0fce1159f6dabd40f08c2c134fb0e002b9c454ba2ec7fe000d6d1b2e64b6a52c326e77053247623fed17a1323d7fa02ddfbcd0f058bf68e28b897160635c454b6571feb101f573d8ef1f4; download_guide=%223%2F20260910%2F0%22; stream_recommend_feed_params=%22%7B%5C%22cookie_enabled%5C%22%3Atrue%2C%5C%22screen_width%5C%22%3A2560%2C%5C%22screen_height%5C%22%3A1440%2C%5C%22browser_online%5C%22%3Atrue%2C%5C%22cpu_core_num%5C%22%3A8%2C%5C%22device_memory%5C%22%3A32%2C%5C%22downlink%5C%22%3A10%2C%5C%22effective_type%5C%22%3A%5C%224g%5C%22%2C%5C%22round_trip_time%5C%22%3A50%7D%22; volume_info=%7B%22isUserMute%22%3Afalse%2C%22isMute%22%3Atrue%2C%22volume%22%3A0.5%7D; home_can_add_dy_2_desktop=%221%22; ttwid=1%7CC4G3bAN0FQBZNZ5CwjIXEGL1rFnB5It2dcdHgQoqbmI%7C1789048237%7Cad710952de92ed342c0e9d5e3a3dfe55e0d451fd6f87f13dc88b2c75271a827e; biz_trace_id=05e14966; bd_ticket_guard_client_data=eyJiZC10aWNrZXQtZ3VhcmQtdmVyc2lvbiI6MiwiYmQtdGlja2V0LWd1YXJkLWl0ZXJhdGlvbi12ZXJzaW9uIjoxLCJiZC10aWNrZXQtZ3VhcmQtcmVlLXB1YmxpYy1rZXkiOiJCRndIaDNRWllsbituZW1uaU1mcnh4WVM4aFlBVkMwZGo1UTU3dW9JdzhyMFdxSGFoTlpNQnp4bWt6aWllSnZRN0JJNEE5Y2hydzNlZG12S0ZEalU1UEE9IiwiYmQtdGlja2V0LWd1YXJkLXdlYi12ZXJzaW9uIjoyfQ%3D%3D; sdk_source_info=7e276470716a68645a606960273f276364697660272927676c715a6d6069756077273f2771777060272927666d776a68605a607d71606b766c6a6b5a7666776c7571273f275e58272927666a6b766a69605a696c6061273f27636469766027292762696a6764695a7364776c6467696076273f275e582729277672715a646971273f2763646976602729277f6b5a666475273f2763646976602729276d6a6e5a6b6a716c273f2763646976602729276c6b6f5a7f6367273f27636469766027292771273f27303d353136373d31353c3d3234272927676c715a75776a716a666a69273f2763646976602778; bit_env=WOsMTPU0Q7W4Qj4kop-Mbo5-tVsYXXrK8QTKe_VY5zXgXNYmq409VkewBzczgzgU-CiGaEc04ycEcl4ZjPwt9q-gmoFseG3MPhfqfrpGzc7ImvSotTFMvfO1HujoJ7UTvGw5VUcDNDjWBsh6OMc-H7EwYndAFHbDte5p5qm2d0ZY7793ed3NOHbp4v108P3xppepJb4Y1dhqe6QidzhqHHLClLNCvbSCRY9sNd0-EmuJh4FAmEpUmA92hRR0EH2hmlpyKEigWzSByZY9yVyty1k7FqHxH6Hg0y79mcPgsqpGOSXTTnrevwPkexShBqofuhgBdJPkZlJkOWTDdMqj7mJ8UEKneRrF4Ijct-Fj00RtOohQrV7Rq9n5qFklMr9f9iFLmf7VvVwuFJKYE7VEVoct0LcZ0hRiZuNAeTb2Tkh_w7UCmLTS5qqc7rtVJmJ-VeQXybTkfrfWGLtZIeO43joPOUtA01CfNkw_k8tAx1youZg5y1vYKeZkJkA-OfoVYmiL3hsl-48cFksazpzdwlqMwrax2d1Ks09sy4lrxuE%3D; gulu_source_res=eyJwX2luIjoiNzM0NmIxZTMzMGFhY2UxMjhkM2RiZTJlOGZhYzc3M2IzMjBjZGVlMGJjZjBkZDJjNWQ1MDBjN2ZiNTE2ZjNlMCJ9; passport_auth_mix_state=zke62yd6dksiw9ycyjz2tdfqz3d3bxlb; IsDouyinActive=true'
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36',
+    'Accept-Language': 'zh-CN,zh;q=0.9',
+    'Referer': 'https://www.douyin.com/',
+    'cookie' : f'enter_pc_once=1; UIFID_TEMP=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a6e54d4d6d4a1b04133846b273c76e23812946586976e0eb3493daf361b2a58ece0e43dc19a3bf660c47b0ca2d998d726; s_v_web_id=verify_mtuyqn4u_TFYWMJUh_M0ms_4NoA_8BjV_iw0YGFfSemWK; hevc_supported=true; dy_swidth=2560; dy_sheight=1440; odin_tt=1d5333efbbf7f9112c8cace058dc73c5127baa7d919cffdff522c5725c2d0690d1373afb14bf24d32b9d88e2da52601c6f3209d0c7430b0b53b71a6ad28666e10966811dc2e772e73064132296e6b105; fpk1=U2FsdGVkX1+v+R5ScK0IyIKSIcMlSIjzb1eBlqlZK5G+nOuiIKfLuS7vZOlEbK+xJY0Lamt1dZ2rj40bw0EXOQ==; fpk2=b8686dc00110378d4f62d0eaf9196000; passport_csrf_token=9717694d2229cad038ff8294f49c7ad7; passport_csrf_token_default=9717694d2229cad038ff8294f49c7ad7; __security_mc_1_s_sdk_crypt_sdk=5485b07c-4c71-b32c; bd_ticket_guard_regenerate_keys_time=2026-09-10/11:23:56; bd_ticket_guard_client_web_domain=2; is_dash_user=1; UIFID=a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a6e54d4d6d4a1b04133846b273c76e238c16c98b3966a762c183e7dfc4e9d7d7b5446fec94d93043498790bd54ea22f8c547cf7f5f4b0fce1159f6dabd40f08c2c134fb0e002b9c454ba2ec7fe000d6d1b2e64b6a52c326e77053247623fed17a1323d7fa02ddfbcd0f058bf68e28b897160635c454b6571feb101f573d8ef1f4; download_guide=%223%2F20260910%2F0%22; volume_info=%7B%22isUserMute%22%3Afalse%2C%22isMute%22%3Atrue%2C%22volume%22%3A0.5%7D; douyin.com; device_web_cpu_core=8; device_web_memory_size=32; is_support_rtm_web_ts=1; stream_recommend_feed_params=%22%7B%5C%22cookie_enabled%5C%22%3Atrue%2C%5C%22screen_width%5C%22%3A2560%2C%5C%22screen_height%5C%22%3A1440%2C%5C%22browser_online%5C%22%3Atrue%2C%5C%22cpu_core_num%5C%22%3A8%2C%5C%22device_memory%5C%22%3A32%2C%5C%22downlink%5C%22%3A1.65%2C%5C%22effective_type%5C%22%3A%5C%224g%5C%22%2C%5C%22round_trip_time%5C%22%3A50%7D%22; strategyABtestKey=%221789093960.116%22; bd_ticket_guard_client_data=eyJiZC10aWNrZXQtZ3VhcmQtdmVyc2lvbiI6MiwiYmQtdGlja2V0LWd1YXJkLWl0ZXJhdGlvbi12ZXJzaW9uIjoxLCJiZC10aWNrZXQtZ3VhcmQtcmVlLXB1YmxpYy1rZXkiOiJCRndIaDNRWllsbituZW1uaU1mcnh4WVM4aFlBVkMwZGo1UTU3dW9JdzhyMFdxSGFoTlpNQnp4bWt6aWllSnZRN0JJNEE5Y2hydzNlZG12S0ZEalU1UEE9IiwiYmQtdGlja2V0LWd1YXJkLXdlYi12ZXJzaW9uIjoyfQ%3D%3D; home_can_add_dy_2_desktop=%221%22; ttwid=1%7CC4G3bAN0FQBZNZ5CwjIXEGL1rFnB5It2dcdHgQoqbmI%7C1789093970%7Cbba0ffb218539b2d5bb375d2fec30577b1a35e22d5046f8923166d3d7762c561; biz_trace_id=fb31bd62; IsDouyinActive=true'
 }
+params = [
+    # 基础公共参数
+    ("device_platform", "webapp"),
+    ("aid", "6383"),
+    ("channel", "channel_pc_web"),
 
-params = {
-    'cursor': 0,
-    'count': 6,
-    'series_id': 7671241407029479470,
+    # 接口业务参数
+    ("series_id", 7673723557569890356),
+    # ("pull_type", "2"),
+    # ("cursor", "0"),
+    # ("count", "12"),
 
-}
+    # 会话和风控参数
+    ("webid", '7683742127989982754'),
+    ("uifid", 'a9feeece8bad9a3ec4489a53034d3a9cea9eedcaf883b88008ea0decba55736a6e54d4d6d4a1b04133846b273c76e238c16c98b3966a762c183e7dfc4e9d7d7b5446fec94d93043498790bd54ea22f8c547cf7f5f4b0fce1159f6dabd40f08c2c134fb0e002b9c454ba2ec7fe000d6d1b2e64b6a52c326e77053247623fed17a1323d7fa02ddfbcd0f058bf68e28b897160635c454b6571feb101f573d8ef1f4'),
+    ("msToken", 'zGExSHeuv4dnY1R__9aL6Qixqg15iSKu0oJ1nCw2MxFGvUUUFpVgcxgeP_xgNdDA1h1OvJqANT9fHjvn-DW72JrMc2YI8dHrzJ47lPpU2qZrY6UL7Hqa__qNPGuV-DlIJA38CM0hEvb6-v0I3WxRkbw4kn9d395vW-vbEtZJgufJYMgsHuQNgQ=='),
+    ("a_bogus", 'xJ0VkzXwEdQfFdKSuOOnSvclT1flNT8yrFTobT/TCPYNywlbOYPHKaeqGozJWc8GGRpTh9A7znalYjdbNUUipeHkLmpfuNtba0I99zfo2HkZGPvg3H6ZC7uFqXBYUcJL-AVRiIDlhUe7ZVV-hqQm/BIHtCje5mWhOZxRk2zCi9GgZKuIdZZhiM0gyfn9BB5dsHS='),
+    ("verifyFp", 'verify_mtuyqn4u_TFYWMJUh_M0ms_4NoA_8BjV_iw0YGFfSemWK'),
+    ("fp", 'verify_mtuyqn4u_TFYWMJUh_M0ms_4NoA_8BjV_iw0YGFfSemWK' ),
+]
 
-response = httpx.get(url, params=params, headers=headers)
-response.raise_for_status()  # Raise an exception for HTTP errors
-print(response.status_code)
-print(type(response.text))
-print('response.text:', response.text)
-# result = response.json()
+with httpx.Client(headers=headers, follow_redirects=True, timeout=20.0) as client:
+    response = client.get(url2, params=params)
 
-# with open('output/douyin_aweme_test.json', 'w', encoding='utf-8') as f:
-#     json.dump(result, f, ensure_ascii=False, indent=4)
+print('status:', response.status_code)
+print('content-type:', response.headers.get('content-type'))
+print('server:', response.headers.get('server'))
+print('request parameter count:', len(params))
+print('response preview:', response.text[:500])
+response.raise_for_status()
+
+if 'application/json' in response.headers.get('content-type', ''):
+    result = response.json()
+    output_path = Path(__file__).parent / 'output' / 'douyin_detail_test.json'
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
+    print('saved:', output_path)

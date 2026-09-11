@@ -1,0 +1,659 @@
+{
+  "extra": {
+    "fatal_item_ids": [],
+    "logid": "20260911115002ADB7DEDDE9843629F5A5",
+    "now": 1789098602000
+  },
+  "log_pb": {
+    "impr_id": "20260911115002ADB7DEDDE9843629F5A5"
+  },
+  "related_item_tag_infos": null,
+  "series_info": {
+    "actors": [],
+    "author": {
+      "accept_private_policy": false,
+      "account_region": "",
+      "ad_cover_url": null,
+      "allow_story_normal_like": false,
+      "apple_account": 0,
+      "authority_status": 0,
+      "avatar_168x168": {
+        "height": 720,
+        "uri": "168x168/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053",
+        "url_list": [
+          "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053~c5_168x168.jpeg?from=4080365293"
+        ],
+        "width": 720
+      },
+      "avatar_300x300": {
+        "height": 720,
+        "uri": "300x300/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053",
+        "url_list": [
+          "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053~c5_300x300.jpeg?from=4080365293"
+        ],
+        "width": 720
+      },
+      "avatar_larger": {
+        "height": 720,
+        "uri": "1080x1080/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053",
+        "url_list": [
+          "https://p3-pc.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053.jpeg?from=4080365293"
+        ],
+        "width": 720
+      },
+      "avatar_medium": {
+        "height": 720,
+        "uri": "720x720/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053",
+        "url_list": [
+          "https://p3-pc.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053.jpeg?from=4080365293"
+        ],
+        "width": 720
+      },
+      "avatar_schema_list": null,
+      "avatar_thumb": {
+        "height": 720,
+        "uri": "100x100/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053",
+        "url_list": [
+          "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053.jpeg?from=4080365293"
+        ],
+        "width": 720
+      },
+      "avatar_uri": "aweme-avatar/tos-cn-i-0813_f93d614eb3a549e1a558c62575b56053",
+      "aweme_control": {
+        "can_comment": true,
+        "can_forward": true,
+        "can_share": true,
+        "can_show_comment": true
+      },
+      "aweme_count": 0,
+      "aweme_hotsoon_auth": 1,
+      "aweme_hotsoon_auth_relation": 1,
+      "awemehts_greet_info": "",
+      "ban_user_functions": [],
+      "batch_unfollow_contain_tabs": null,
+      "batch_unfollow_relation_desc": null,
+      "can_set_geofencing": null,
+      "card_entries": null,
+      "card_entries_not_display": null,
+      "card_sort_priority": null,
+      "cf_list": null,
+      "cha_list": null,
+      "close_friend_type": 0,
+      "comment_filter_status": 0,
+      "comment_setting": 0,
+      "commerce_user_level": 0,
+      "constellation": 10,
+      "contacts_status": 2,
+      "contrail_list": null,
+      "cover_url": [
+        {
+          "height": 720,
+          "uri": "c8510002be9a3a61aad2",
+          "url_list": [
+            "https://p3-pc-sign.douyinpic.com/obj/c8510002be9a3a61aad2?lk3s=f3356eed&x-expires=1790305200&x-signature=oDtNxuMsBKTW8yYSi2sCpceXCpQ%3D&from=4080365293",
+            "https://p9-pc-sign.douyinpic.com/obj/c8510002be9a3a61aad2?lk3s=f3356eed&x-expires=1790305200&x-signature=ZS3TcfP1A2gO2QfUaSy2rd15LHc%3D&from=4080365293"
+          ],
+          "width": 720
+        }
+      ],
+      "create_time": 0,
+      "creator_tag_list": null,
+      "custom_verify": "",
+      "cv_level": "",
+      "data_label_list": null,
+      "disable_image_comment_saved": 0,
+      "display_info": null,
+      "download_prompt_ts": 0,
+      "download_setting": -1,
+      "duet_setting": 0,
+      "enable_nearby_visible": true,
+      "endorsement_info_list": null,
+      "enterprise_verify_reason": "",
+      "familiar_confidence": 0,
+      "familiar_visitor_user": null,
+      "favoriting_count": 0,
+      "fb_expire_time": 0,
+      "follow_status": 0,
+      "follower_count": 0,
+      "follower_list_secondary_information_struct": null,
+      "follower_request_status": 0,
+      "follower_status": 0,
+      "followers_detail": null,
+      "following_count": 0,
+      "geofencing": [],
+      "google_account": "",
+      "has_email": false,
+      "has_facebook_token": false,
+      "has_insights": false,
+      "has_orders": false,
+      "has_twitter_token": false,
+      "has_unread_story": false,
+      "has_youtube_token": false,
+      "hide_location": false,
+      "hide_search": false,
+      "homepage_bottom_toast": null,
+      "house_talent_info": 0,
+      "identity_labels": null,
+      "im_role_ids": null,
+      "ins_id": "",
+      "interest_tags": null,
+      "is_ad_fake": false,
+      "is_ban": false,
+      "is_binded_weibo": false,
+      "is_block": false,
+      "is_blocked_v2": false,
+      "is_blocking_v2": false,
+      "is_cf": 0,
+      "is_discipline_member": false,
+      "is_gov_media_vip": false,
+      "is_mix_user": true,
+      "is_not_show": false,
+      "is_phone_binded": false,
+      "is_star": false,
+      "is_verified": true,
+      "item_list": null,
+      "ky_only_predict": 0,
+      "language": "zh-Hans",
+      "link_item_list": null,
+      "live_agreement": 0,
+      "live_agreement_time": 0,
+      "live_commerce": false,
+      "live_high_value": 0,
+      "live_status": 0,
+      "live_verify": 0,
+      "location": "",
+      "mate_add_permission": 0,
+      "mate_count": 0,
+      "mate_relation": {
+        "mate_apply_forward": 0,
+        "mate_apply_reverse": 0,
+        "mate_status": 0
+      },
+      "max_follower_count": 0,
+      "need_points": null,
+      "need_recommend": 0,
+      "neiguang_shield": 0,
+      "new_story_cover": null,
+      "nickname": "六翼影视",
+      "not_seen_item_id_list": null,
+      "not_seen_item_id_list_v2": null,
+      "offline_info_list": null,
+      "personal_tag_list": null,
+      "platform_sync_info": null,
+      "prevent_download": false,
+      "private_relation_list": null,
+      "profile_component_disabled": null,
+      "profile_mob_params": null,
+      "profile_signature_components": null,
+      "react_setting": 0,
+      "reflow_page_gid": 0,
+      "reflow_page_uid": 0,
+      "region": "",
+      "relative_users": null,
+      "risk_notice_text": "",
+      "room_id": 0,
+      "room_id_str": "0",
+      "school_category": 0,
+      "school_id": "",
+      "school_name": "",
+      "school_poi_id": "",
+      "school_type": 0,
+      "search_impr": {
+        "entity_id": "1632089918671463"
+      },
+      "sec_uid": "MS4wLjABAAAABd85WhFt9yOflaKYoe3m5d1VgERommLLaHhDQtxvv8DfJ8mieQ7AZnvExkXHfsVD",
+      "secret": 0,
+      "shield_comment_notice": 0,
+      "shield_digg_notice": 0,
+      "shield_follow_notice": 0,
+      "short_id": "37151228510",
+      "show_image_bubble": false,
+      "show_nearby_active": false,
+      "signature": "六翼影视官方号，每日准点更新👇👇\n点击“置顶视频”下方链接，观看全集\n欢迎加入六翼粉丝群，福利多多哦！",
+      "signature_display_lines": 0,
+      "signature_extra": null,
+      "social_real_relation_type": 0,
+      "special_follow_status": 0,
+      "special_lock": 1,
+      "special_people_labels": null,
+      "status": 1,
+      "stitch_setting": 0,
+      "story25_comment": 0,
+      "story_count": 0,
+      "story_interactive": 0,
+      "story_open": false,
+      "story_ttl": 0,
+      "sync_to_toutiao": 0,
+      "text_extra": null,
+      "total_favorited": 0,
+      "tw_expire_time": 0,
+      "twitter_id": "",
+      "twitter_name": "",
+      "type_label": null,
+      "uid": "1632089918671463",
+      "unique_id": "37151228510",
+      "unique_id_modify_time": 1789098602,
+      "user_canceled": false,
+      "user_mode": 0,
+      "user_not_see": 0,
+      "user_not_show": 1,
+      "user_period": 0,
+      "user_permissions": null,
+      "user_rate": 1,
+      "user_tags": null,
+      "verification_permission_ids": null,
+      "verification_type": 1,
+      "verify_info": "",
+      "video_icon": {
+        "height": 720,
+        "uri": "",
+        "url_list": [],
+        "width": 720
+      },
+      "webcast_preview_labels": null,
+      "weibo_name": "",
+      "weibo_schema": "",
+      "weibo_url": "",
+      "weibo_verify": "",
+      "white_cover_url": null,
+      "with_commerce_entry": false,
+      "with_dou_entry": false,
+      "with_fusion_shop_entry": false,
+      "with_shop_entry": false,
+      "youtube_channel_id": "",
+      "youtube_channel_title": "",
+      "youtube_expire_time": 0
+    },
+    "charge_info": {
+      "buy_schema": "sslocal://webcast_redirect?entry=ent_playlet_bill&product_id=7673721915982713890&is_purchase_all=1&content_id=7673723557569890356&from_author_id=1632089918671463&video_type=4&mix_short_name=%E9%87%8D%E5%9B%9E%E5%89%8D%E5%A4%AB%E5%81%87%E6%AD%BB%E9%82%A3%E5%A4%A9%EF%BC%8C%E6%88%91%E5%BD%BB%E5%BA%95%E6%8E%80%E6%A1%8C%E4%BA%86",
+      "charge_count": 70,
+      "charge_episodes": null,
+      "charge_type": 1,
+      "has_paid": false,
+      "paid_episodes": null,
+      "promise_update_time": 1787997600,
+      "sell_type": 2,
+      "unpaid_count": 70,
+      "use_demotion": false
+    },
+    "charge_strategy": {
+      "discount_threshold": 5,
+      "has_paid_episodes": 0,
+      "is_charge": 0,
+      "support_segment_unlock": true,
+      "total_price": 1260,
+      "unit_price": 18
+    },
+    "content_sub_type": 0,
+    "cover_url": {
+      "height": 720,
+      "uri": "tos-cn-i-dy/03d3841dffcf94e694052778207af225",
+      "url_list": [
+        "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-dy/03d3841dffcf94e694052778207af225~tplv-dy-resize-walign-adapt-aq:640:q80.webp?lk3s=f3356eed&x-expires=1789268400&x-signature=%2BzqoX%2FSu2%2BRjHrji%2BzGWWsxPdKc%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_cover&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p95-zjwztc-sign.douyinpic.com/tos-cn-i-dy/03d3841dffcf94e694052778207af225~tplv-dy-resize-walign-adapt-aq:640:q80.webp?lk3s=f3356eed&x-expires=1789268400&x-signature=0ckQsrVLsEqXvLnaVVF%2FcTqNbnk%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_cover&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p5-sign.douyinpic.com/tos-cn-i-dy/03d3841dffcf94e694052778207af225~tplv-dy-resize-walign-adapt-aq:640:q80.webp?lk3s=f3356eed&x-expires=1789268400&x-signature=thXoLVlpWOUaW0hKqBlvZwpCDcc%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_cover&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-dy/03d3841dffcf94e694052778207af225~tplv-dy-resize-walign-adapt-aq:640:q80.jpeg?lk3s=f3356eed&x-expires=1789268400&x-signature=9RSoOqlOxuS03H9r5ahU0xvALDg%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_cover&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5"
+      ],
+      "width": 720
+    },
+    "create_time": 1786677995,
+    "dark_icon_url": {
+      "height": 720,
+      "uri": "tos-cn-i-30241dr4mi/f6bfed05d3354fbd86127c49c563a197",
+      "url_list": [
+        "https://p5-ex-gddgtc-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/f6bfed05d3354fbd86127c49c563a197?lk3s=f3356eed&x-expires=1789117200&x-signature=taiA5TJn%2BfjVP3TnAbrPTd%2FLVqs%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_icon_dark&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p95-zjwztc-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/f6bfed05d3354fbd86127c49c563a197?lk3s=f3356eed&x-expires=1789117200&x-signature=QAmMrlQ9sdkkd3SCpsftfxCX7x4%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_icon_dark&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p5-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/f6bfed05d3354fbd86127c49c563a197?lk3s=f3356eed&x-expires=1789117200&x-signature=6%2FPl%2B%2FzBMkbA75sezC0voDLDnGE%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_icon_dark&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5"
+      ],
+      "width": 720
+    },
+    "desc": "上一世我遭丈夫全家算计惨死，才知晓他的离世只是一场骗局。他故意假死，骗我辛苦操劳二十年，好带着情人脱身。重生后我重回他的灵堂，哀乐声里众人都劝我节哀，只有我看透内情。我凑近棺木，低语让他偿还亏欠，随后设宴三日留住全村人。期间有人慌乱、试探、跪地求饶，我只静静等候对方露出破绽。第三日开棺，在场之人尽数震惊。我站在人群之中，淡然等候开启属于自己的反击。",
+    "directors": [],
+    "enable_use_new_ent_data": false,
+    "extra": "{\"charge_strategy\":{\"charge_count\":70,\"default_selection\":0,\"discount\":1,\"has_limit_free_episode\":false,\"segment_infos\":[{\"discount\":0.99,\"unlock_count\":10},{\"discount\":0.64,\"unlock_count\":30},{\"discount\":0.24,\"unlock_count\":70}],\"share_percent\":0,\"support_segment\":true,\"unit_price\":18},\"charge_strategy_new\":{\"attr_collection_id\":7389106507905815588,\"attr_config_detail\":\"{\\\"AppAttrConfigDetailList\\\":[{\\\"AppID\\\":1128,\\\"PaidStrategy\\\":1,\\\"IAAConfig\\\":{\\\"ReGetUnLockEpisodes\\\":1,\\\"SingleUnLockEpisodes\\\":1,\\\"ReGetFrequency\\\":4,\\\"ValidWatchDuration\\\":172800000}},{\\\"AppID\\\":2329,\\\"PaidStrategy\\\":1,\\\"IAAConfig\\\":{\\\"ReGetUnLockEpisodes\\\":1,\\\"SingleUnLockEpisodes\\\":1,\\\"ReGetFrequency\\\":4,\\\"ValidWatchDuration\\\":172800000}},{\\\"AppID\\\":8663,\\\"PaidStrategy\\\":1,\\\"IAAConfig\\\":{\\\"ReGetUnLockEpisodes\\\":1,\\\"SingleUnLockEpisodes\\\":1,\\\"ReGetFrequency\\\":4,\\\"ValidWatchDuration\\\":172800000}},{\\\"AppID\\\":32,\\\"PaidStrategy\\\":1,\\\"IAAConfig\\\":{\\\"ReGetUnLockEpisodes\\\":1,\\\"SingleUnLockEpisodes\\\":1,\\\"ReGetFrequency\\\":4,\\\"ValidWatchDuration\\\":172800000}},{\\\"AppID\\\":568863,\\\"PaidStrategy\\\":1,\\\"IAAConfig\\\":{\\\"ReGetUnLockEpisodes\\\":1,\\\"SingleUnLockEpisodes\\\":1,\\\"ReGetFrequency\\\":4,\\\"ValidWatchDuration\\\":172800000}}],\\\"TrialDuration\\\":{\\\"TrialStartDuration\\\":0,\\\"TrialEndDuration\\\":10000},\\\"attr_collection_type\\\":2,\\\"test_flag\\\":true}\",\"attr_config_version\":1787821262487,\"charge_count\":70,\"charge_episodes\":[9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78],\"graded_strategy_infos\":[{\"discount\":0.99,\"end_unlock_threshold\":10,\"start_unlock_threshold\":2},{\"discount\":0.64,\"end_unlock_threshold\":30,\"start_unlock_threshold\":11},{\"discount\":0.24,\"end_unlock_threshold\":70,\"start_unlock_threshold\":31}],\"not_allow_single_buy\":false,\"pay_method\":4,\"pre_view_choose_type\":0,\"pre_view_end_time\":0,\"pre_view_start_time\":0,\"product_id\":7673721915982713890,\"promise_publish_episode\":78,\"promise_update_time\":1787997600,\"sale_type\":2,\"support_pre_view\":false,\"support_remain_buy\":false,\"unit_price\":18,\"update_time\":1787821262548,\"whole_buy_discount\":0,\"whole_buy_price\":1260},\"compass_identifier\":{\"album_id\":7673355374463812138,\"compass_id\":7673012206967751194},\"compass_playlet_tag\":{\"1001\":[{\"name\":\"现代\",\"tag_id\":7403270586274693676}],\"1002\":[{\"name\":\"都市\",\"tag_id\":7403270586807353900}],\"1003\":[{\"is_hidden\":1,\"name\":\"复仇\",\"primary_id\":1957,\"tag_id\":7403270592608076332}],\"1004\":[{\"name\":\"穿越重生\",\"tag_id\":7403270596538139180}],\"1005\":[{\"name\":\"大女主\",\"tag_id\":7403270605258113580}],\"1006\":[{\"name\":\"主角向\",\"tag_id\":7433358533431427610}],\"1007\":[{\"name\":\"爽感\",\"tag_id\":7403270609934746156}],\"1008\":[{\"name\":\"女频\",\"tag_id\":7403270611507626540}]},\"cp_center_content_id\":7673351187910904857,\"fanqie_publish_album_id\":7673355374463812138,\"first_reviewed\":1,\"free_to_paid_config\":{\"free_to_paid_count\":8,\"free_to_paid_episodes\":[1,2,3,4,5,6,7,8]},\"iaa_start_time\":-1,\"is_author_set_self_see\":0,\"is_exclusive\":false,\"is_in_trusteeship\":true,\"last_added_item_time\":1786678729,\"mix_ad_info\":{\"copy_right_item_count\":77,\"music_physical_game_count\":0,\"risk_copy_right_item_count\":0},\"next_info\":{\"cover\":\"tos-cn-i-dy/03d3841dffcf94e694052778207af225\",\"desc\":\"上一世我遭丈夫全家算计惨死，才知晓他的离世只是一场骗局。他故意假死，骗我辛苦操劳二十年，好带着情人脱身。重生后我重回他的灵堂，哀乐声里众人都劝我节哀，只有我看透内情。我凑近棺木，低语让他偿还亏欠，随后设宴三日留住全村人。期间有人慌乱、试探、跪地求饶，我只静静等候对方露出破绽。第三日开棺，在场之人尽数震惊。我站在人群之中，淡然等候开启属于自己的反击。\",\"name\":\"重回前夫假死那天，我彻底掀桌了\"},\"old_link_incompatibility\":0,\"org_info\":\"{\\\"OrgID\\\":7351236957613071414,\\\"OrgName\\\":\\\"湖南六翼影视文化传媒有限公司\\\"}\",\"playlet_control\":[600,601,602,603,304],\"preview_config\":{\"end_time\":10000,\"is_support\":true,\"preview_vid\":\"\",\"start_time\":0,\"time_type\":2,\"ts_us\":1787711293812},\"related_id\":7673723557712496640,\"related_names\":[\"重回前夫假死那天，我彻底掀桌了\",\"重回前夫假死那天我彻底掀桌了\"],\"segmentation\":\"重回 前夫 假死 那天 ， 我 彻底 掀 桌 了\",\"series_content_types\":\"\",\"series_eco_feature\":{\"post_quality_rank\":410,\"pre_quality_rank\":3,\"pre_quality_rank_revised\":3,\"quality_rank\":410,\"quality_tags_info\":{\"102\":\"C1\"}},\"series_icp\":\"{\\\"32\\\":{\\\"record_number\\\":\\\"（抖音）网微剧备字（2026）第434196号\\\",\\\"should_display\\\":true},\\\"1128\\\":{\\\"record_number\\\":\\\"（抖音）网微剧备字（2026）第434196号\\\",\\\"should_display\\\":true}}\",\"settlement_info\":{\"settlement_type\":2},\"source\":4,\"spu_id\":7673721915982713890,\"top_item_content_label\":{\"-1\":77},\"total_duration\":6805,\"total_episode\":78,\"update_mode\":2,\"vip_start_time\":0}",
+    "horizontal_cover_url": {
+      "height": 720,
+      "uri": "tos-cn-i-dy/03d3841dffcf94e694052778207af225",
+      "url_list": [
+        "https://p95-zjwztc-sign.douyinpic.com/tos-cn-i-dy/03d3841dffcf94e694052778207af225~tplv-dy-resize-walign-adapt-aq:640:q80.jpeg?lk3s=f3356eed&x-expires=1789268400&x-signature=Xbi2H%2FL972HdGdAM9cIsxtXZgc8%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_cover&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-dy/03d3841dffcf94e694052778207af225~tplv-dy-resize-walign-adapt-aq:640:q80.jpeg?lk3s=f3356eed&x-expires=1789268400&x-signature=9RSoOqlOxuS03H9r5ahU0xvALDg%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_cover&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p5-sign.douyinpic.com/tos-cn-i-dy/03d3841dffcf94e694052778207af225~tplv-dy-resize-walign-adapt-aq:640:q80.jpeg?lk3s=f3356eed&x-expires=1789268400&x-signature=jy68faQgZWiUddlKYKm9m3MugSA%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_cover&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5"
+      ],
+      "width": 720
+    },
+    "ids": [],
+    "is_charge_series": 1,
+    "is_exclusive": false,
+    "is_iaa": 0,
+    "light_icon_url": {
+      "height": 720,
+      "uri": "tos-cn-i-30241dr4mi/7a9045c4c66541d6922c8aadf2094922",
+      "url_list": [
+        "https://p95-zjwztc-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/7a9045c4c66541d6922c8aadf2094922?lk3s=f3356eed&x-expires=1789117200&x-signature=D9EuPDx4vE5QlWBNljQH%2BoqUALY%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_light_icon&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p5-ex-gddgtc-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/7a9045c4c66541d6922c8aadf2094922?lk3s=f3356eed&x-expires=1789117200&x-signature=mHgYpRhpJpsRWzpBxYCQWlyTu3s%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_light_icon&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5",
+        "https://p5-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/7a9045c4c66541d6922c8aadf2094922?lk3s=f3356eed&x-expires=1789117200&x-signature=2b7WzIfrKo1oL4pOS6pI3FjnLPE%3D&from=4080365293&s=PackSourceEnum_SERIES_DETAIL&se=false&sc=series_light_icon&biz_tag=aweme_series&l=20260911115002ADB7DEDDE9843629F5A5"
+      ],
+      "width": 720
+    },
+    "mix_punish_info": {
+      "has_punished": false,
+      "jump_schema": "",
+      "reason": ""
+    },
+    "paid_episodes": null,
+    "real_name": "重回前夫假死那天，我彻底掀桌了",
+    "recommend_color": null,
+    "rights_info": {
+      "has_paid": false
+    },
+    "series_content_types": [
+      {
+        "name": "其他",
+        "series_content_type": 124
+      }
+    ],
+    "series_content_types_new": [
+      {
+        "jump_schema": "",
+        "name": "反转打脸",
+        "series_content_type": 142
+      },
+      {
+        "jump_schema": "",
+        "name": "女性成长",
+        "series_content_type": 144
+      }
+    ],
+    "series_form_type": 0,
+    "series_icp": {
+      "card_font_size": 9,
+      "card_pos": {
+        "x_pos": 8,
+        "y_pos": 8
+      },
+      "disappear_time_sec": 5,
+      "font_color": "#D8D8D8",
+      "font_size": 11,
+      "horizonal_pos": {
+        "x_pos": 16,
+        "y_pos": 12
+      },
+      "icp_number": "（抖音）网微剧备字（2026）第434196号",
+      "icp_number_split": "（抖音）网微剧备字\n（2026）第434196号",
+      "start_time_sec": 2,
+      "vertical_pos": {
+        "x_pos": 16,
+        "y_pos": 90
+      }
+    },
+    "series_id": "7673723557569890356",
+    "series_interactive": {
+      "enable_config": false,
+      "interactive_config": {
+        "collection_button_copy": "收藏短剧",
+        "display_detail_edit_button": false,
+        "hide_desk_guide": false,
+        "hide_find_top_tab": false,
+        "hide_intro_card": false,
+        "hide_intro_card_details_module": false,
+        "hide_intro_card_tags": false,
+        "hide_more_series_bottom_btn": false,
+        "hide_more_series_module": false,
+        "hide_recommendation_module": false,
+        "more_series_module_copy": "更多短剧",
+        "recommendation_module_title_copy": "短剧推荐",
+        "unlock_button_copy": "解锁全集"
+      }
+    },
+    "series_name": "短剧 · 重回前夫假死那天，我彻底掀桌了",
+    "series_paid_type_list": [
+      1
+    ],
+    "series_price": 1260,
+    "series_rank_info": {},
+    "series_type": 10,
+    "series_ui_config": {
+      "collection_button": {
+        "text": "收藏短剧"
+      },
+      "detail_page_buy_button": {
+        "schema": "sslocal://webcast_redirect?entry=ent_playlet_bill&product_id=7673721915982713890&is_purchase_all=1&content_id=7673723557569890356&from_author_id=1632089918671463&video_type=4&mix_short_name=%E9%87%8D%E5%9B%9E%E5%89%8D%E5%A4%AB%E5%81%87%E6%AD%BB%E9%82%A3%E5%A4%A9%EF%BC%8C%E6%88%91%E5%BD%BB%E5%BA%95%E6%8E%80%E6%A1%8C%E4%BA%86",
+        "text": "购买全70集"
+      },
+      "general_position_tag_infos": [
+        {
+          "general_tag_infos": [
+            {
+              "gap_between_icon_and_text": 1,
+              "tag_custom_item_infos": [
+                {
+                  "custom_style": 1,
+                  "tag_icon": {
+                    "css_style": "{\"width\":\"11px\",\"height\":\"11px\"}",
+                    "css_style_dark": "{\"width\":\"12px\",\"height\":\"12px\"}",
+                    "height": 11,
+                    "icon": {
+                      "height": 720,
+                      "uri": "tos-cn-i-jm8ajry58r/super_hot_icon.png",
+                      "url_list": [
+                        "https://p95-zjwztc-sign.douyinpic.com/obj/tos-cn-i-jm8ajry58r/super_hot_icon.png?lk3s=f3356eed&x-expires=1789117200&x-signature=ccvLHwbq9tywIfU%2FisXP1YkQBKs%3D&from=4080365293",
+                        "https://p5-ex-gddgtc-sign.douyinpic.com/obj/tos-cn-i-jm8ajry58r/super_hot_icon.png?lk3s=f3356eed&x-expires=1789117200&x-signature=FfkM40ur%2FyVnx4ixlxrayyWTDmo%3D&from=4080365293",
+                        "https://p5-sign.douyinpic.com/obj/tos-cn-i-jm8ajry58r/super_hot_icon.png?lk3s=f3356eed&x-expires=1789117200&x-signature=XdMOvJM7R%2FukbLlXybdG4GkE%2BqY%3D&from=4080365293"
+                      ],
+                      "width": 720
+                    },
+                    "width": 11
+                  }
+                },
+                {
+                  "custom_style": 0,
+                  "tag_text": {
+                    "css_style": "{\"font-family\":\"PingFang SC\",\"font-weight\":\"500\",\"font-size\":\"11px\",\"color\":\"#fff\",\"padding-right\":\"1px\"}",
+                    "css_style_dark": "{\"font-family\":\"PingFang SC\",\"font-weight\":\"500\",\"font-size\":\"12px\",\"color\":\"#fff\",\"padding-right\":\"2px\"}",
+                    "text": "爆剧",
+                    "text_color": "{\"color\":\"FFFFFF\",\"alpha\":\"FF\"}",
+                    "text_size": 12
+                  }
+                }
+              ],
+              "tag_id": 3002,
+              "tag_priority": 888,
+              "tag_style": {
+                "background_colors": [
+                  "{\"color\":\"#FF1E96\",\"alpha\":\"FF\"}",
+                  "{\"color\":\"#FE2C55\",\"alpha\":\"FF\"}"
+                ],
+                "colors_direction": 0,
+                "corner_radius": 4,
+                "css_style": "{\"height\":\"16px\",\"border-radius\":\"4px\",\"background\":\"linear-gradient(180deg, #FF1E96 0%, #FE2C55 100%)\",\"padding\":\"0 2px\"}",
+                "css_style_dark": "{\"height\":\"20px\",\"border-radius\":\"4px\",\"background\":\"linear-gradient(180deg, #FF1E96 0%, #FE2C55 100%)\",\"padding\":\"0 2px\"}",
+                "padding": [
+                  2,
+                  1,
+                  3,
+                  1
+                ]
+              }
+            },
+            {
+              "click_schema": "sslocal://webcast_redirect?entry=playlet_category&series_content_type=142",
+              "gap_between_icon_and_text": 1,
+              "tag_custom_item_infos": [
+                {
+                  "custom_style": 0,
+                  "tag_text": {
+                    "css_style": "{\"font-family\":\"PingFang SC\",\"font-weight\":\"400\",\"font-style\":\"Regular\",\"font-size\":\"12px\",\"color\":\"#16182399\"}",
+                    "css_style_dark": "{\"font-family\":\"PingFang SC\",\"font-weight\":\"500\",\"font-style\":\"Medium\",\"font-size\":\"12px\",\"color\":\"#fff\"}",
+                    "text": "反转打脸",
+                    "text_color": "{\"color\":\"FFFFFF\",\"alpha\":\"FF\"}",
+                    "text_size": 12
+                  }
+                },
+                {
+                  "custom_style": 1,
+                  "tag_icon": {
+                    "css_style": "{\"width\":\"12px\",\"height\":\"12px\"}",
+                    "css_style_dark": "{\"width\":\"12px\",\"height\":\"12px\"}",
+                    "height": 10,
+                    "icon": {
+                      "height": 720,
+                      "uri": "tos-cn-i-30241dr4mi/4221119374cd46f7b6a2a7db2455c6be",
+                      "url_list": [
+                        "https://p95-zjwztc-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/4221119374cd46f7b6a2a7db2455c6be?lk3s=f3356eed&x-expires=1789117200&x-signature=w7mddeD7faQjPqsyDN9U5Yhcs8Y%3D&from=4080365293",
+                        "https://p5-ex-gddgtc-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/4221119374cd46f7b6a2a7db2455c6be?lk3s=f3356eed&x-expires=1789117200&x-signature=GCJtvXsz8bjYcEj%2F3o6Pint%2BCtU%3D&from=4080365293",
+                        "https://p11-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/4221119374cd46f7b6a2a7db2455c6be?lk3s=f3356eed&x-expires=1789117200&x-signature=iL4rVCAAIlE9QgH8l2OukZhMc%2Fo%3D&from=4080365293"
+                      ],
+                      "width": 720
+                    },
+                    "width": 10
+                  }
+                }
+              ],
+              "tag_id": 1101,
+              "tag_priority": 100,
+              "tag_style": {
+                "background_colors": [
+                  "{\"color\":\"4D4D4D\",\"alpha\":\"80\"}"
+                ],
+                "colors_direction": 0,
+                "corner_radius": 3,
+                "css_style": "{\"height\":\"20px\",\"border-radius\":\"4px\",\"padding\":\"0 4px\",\"border\":\"1px solid #16182314\",\"background\":\"#16182308\"}",
+                "css_style_dark": "{\"height\":\"20px\",\"border-radius\":\"4px\",\"padding\":\"0 4px\",\"border\":\"1px solid #16182314\",\"background\":\"#4D4D4D80\"}",
+                "padding": [
+                  8,
+                  16,
+                  8,
+                  16
+                ]
+              }
+            },
+            {
+              "click_schema": "sslocal://webcast_redirect?entry=playlet_category&series_content_type=144",
+              "gap_between_icon_and_text": 1,
+              "tag_custom_item_infos": [
+                {
+                  "custom_style": 0,
+                  "tag_text": {
+                    "css_style": "{\"font-family\":\"PingFang SC\",\"font-weight\":\"400\",\"font-style\":\"Regular\",\"font-size\":\"12px\",\"color\":\"#16182399\"}",
+                    "css_style_dark": "{\"font-family\":\"PingFang SC\",\"font-weight\":\"500\",\"font-style\":\"Medium\",\"font-size\":\"12px\",\"color\":\"#fff\"}",
+                    "text": "女性成长",
+                    "text_color": "{\"color\":\"FFFFFF\",\"alpha\":\"FF\"}",
+                    "text_size": 12
+                  }
+                },
+                {
+                  "custom_style": 1,
+                  "tag_icon": {
+                    "css_style": "{\"width\":\"12px\",\"height\":\"12px\"}",
+                    "css_style_dark": "{\"width\":\"12px\",\"height\":\"12px\"}",
+                    "height": 10,
+                    "icon": {
+                      "height": 720,
+                      "uri": "tos-cn-i-30241dr4mi/4221119374cd46f7b6a2a7db2455c6be",
+                      "url_list": [
+                        "https://p95-zjwztc-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/4221119374cd46f7b6a2a7db2455c6be?lk3s=f3356eed&x-expires=1789117200&x-signature=w7mddeD7faQjPqsyDN9U5Yhcs8Y%3D&from=4080365293",
+                        "https://p5-ex-gddgtc-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/4221119374cd46f7b6a2a7db2455c6be?lk3s=f3356eed&x-expires=1789117200&x-signature=GCJtvXsz8bjYcEj%2F3o6Pint%2BCtU%3D&from=4080365293",
+                        "https://p9-sign.douyinpic.com/obj/tos-cn-i-30241dr4mi/4221119374cd46f7b6a2a7db2455c6be?lk3s=f3356eed&x-expires=1789117200&x-signature=smJ973y7iW4hqdhZVhL7BToxHEo%3D&from=4080365293"
+                      ],
+                      "width": 720
+                    },
+                    "width": 10
+                  }
+                }
+              ],
+              "tag_id": 1102,
+              "tag_priority": 98,
+              "tag_style": {
+                "background_colors": [
+                  "{\"color\":\"4D4D4D\",\"alpha\":\"80\"}"
+                ],
+                "colors_direction": 0,
+                "corner_radius": 3,
+                "css_style": "{\"height\":\"20px\",\"border-radius\":\"4px\",\"padding\":\"0 4px\",\"border\":\"1px solid #16182314\",\"background\":\"#16182308\"}",
+                "css_style_dark": "{\"height\":\"20px\",\"border-radius\":\"4px\",\"padding\":\"0 4px\",\"border\":\"1px solid #16182314\",\"background\":\"#4D4D4D80\"}",
+                "padding": [
+                  8,
+                  16,
+                  8,
+                  16
+                ]
+              }
+            }
+          ],
+          "tag_position": 401
+        }
+      ],
+      "paid_series_vip_entrance_config": {
+        "block_ad_buttons": [],
+        "unblock_ad_buttons": [],
+        "upper_right_buttons": []
+      },
+      "select_panel_buy_button": {
+        "schema": "sslocal://webcast_redirect?entry=ent_playlet_bill&product_id=7673721915982713890&is_purchase_all=1&content_id=7673723557569890356&from_author_id=1632089918671463&video_type=4&mix_short_name=%E9%87%8D%E5%9B%9E%E5%89%8D%E5%A4%AB%E5%81%87%E6%AD%BB%E9%82%A3%E5%A4%A9%EF%BC%8C%E6%88%91%E5%BD%BB%E5%BA%95%E6%8E%80%E6%A1%8C%E4%BA%86",
+        "text": "购买全70集"
+      },
+      "series_ad_page_entrance_config": {},
+      "series_bar_button_infos": [
+        {
+          "button_text": "下一集",
+          "click_type": 2,
+          "condition_material_types": [
+            101
+          ]
+        },
+        {
+          "button_text": "观看完整正片",
+          "click_type": 0,
+          "condition_material_types": [
+            102,
+            103,
+            104,
+            105,
+            106,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211
+          ]
+        }
+      ],
+      "universal_cover_label": {
+        "background_color": "#ffdd99",
+        "text": "付费",
+        "text_color": "#703a17"
+      }
+    },
+    "share_info": {
+      "share_desc": "9.99 w@s.RK 03/06 Xmd:/ 我正在看【重回前夫假死那天，我彻底掀桌了】 长按复制此条消息，去抖音搜索，和我一起看短剧~",
+      "share_desc_info": "6.92 08/17 NWm:/ k@p.Qk 我正在看【重回前夫假死那天，我彻底掀桌了】 长按复制此条消息，去抖音搜索，和我一起看短剧~",
+      "share_title": "这么有趣的短剧，不能只有我一个人知道吧",
+      "share_title_myself": "",
+      "share_title_other": "",
+      "share_url": "https://www.iesdouyin.com/share/playlet/detail/7673723557569890356/?schema_type=43&object_id=7673723557569890356&from_ssr=1",
+      "share_weibo_desc": "6.92 08/17 NWm:/ k@p.Qk 我正在看【重回前夫假死那天，我彻底掀桌了】 长按复制此条消息，去抖音搜索，和我一起看短剧~"
+    },
+    "stats": {
+      "collect_vv": 1160957,
+      "current_episode": 0,
+      "last_added_item_time": 1786678729,
+      "play_vv": 1043998644,
+      "total_episode": 78,
+      "updated_to_episode": 78
+    },
+    "status": {
+      "is_collected": 0,
+      "status": 2,
+      "status_desc": "78集全"
+    },
+    "update_time": 1788919167,
+    "watched_item": ""
+  },
+  "status_code": 0,
+  "status_msg": ""
+}

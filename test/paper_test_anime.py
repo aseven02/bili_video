@@ -32,11 +32,11 @@ def get_pic_info(response_data):
         }
     return None
 
-def save_pic(pic_url, pic_dir, pic_id, max_retries=3, client=None):
-    requester = client if client else httpx
+def save_pic(pic_url, pic_dir, pic_id, client, max_retries=3):
+    """根据url, pic_dir, pic_id保存图片, 需要共同传入client"""
     for retry in range(max_retries):
         try:
-            response = requester.get(pic_url, headers=headers, timeout=10)
+            response = client.get(pic_url, headers=headers, timeout=10)
             if response.status_code == 429:
                 logger.warning(f"Rate limited while downloading {pic_url}. Retrying after a delay.{retry + 1}/{max_retries}")
                 if response.headers.get('Retry-After'):
@@ -44,7 +44,7 @@ def save_pic(pic_url, pic_dir, pic_id, max_retries=3, client=None):
                     retry_after = int(response.headers['Retry-After'])
                     time.sleep(retry_after)
                 else:
-                    time.sleep(30*(2**retry))
+                    time.sleep(15*(2**retry))
                 continue
 
             response.raise_for_status()
@@ -64,51 +64,38 @@ def save_pic(pic_url, pic_dir, pic_id, max_retries=3, client=None):
             return None
     return None
 
-def process_single_pic(pic_info, pic_dir, save_choice='both'):
-    if not pic_info:
-        logger.error("Invalid picture data.")
-        return
-    if save_choice == 'both' or save_choice == 'small':
-        if os.path.exists(f'{pic_dir}/small/{pic_info["pic_id"]}.{pic_info["small_url"].split(".")[-1]}'):
-            logger.info(f"Small image for pic_id {pic_info['pic_id']} already exists. Skipping download.")
-            return
-        save_pic(pic_info['small_url'], f'{pic_dir}/small', pic_info['pic_id'])
-    if save_choice == 'both' or save_choice == 'full':
-        if os.path.exists(f'{pic_dir}/full/{pic_info["pic_id"]}.{pic_info["url"].split(".")[-1]}'):
-            logger.info(f"Full image for pic_id {pic_info['pic_id']} already exists. Skipping download.")
-            return
-        save_pic(pic_info['url'], f'{pic_dir}/full', pic_info['pic_id'])
-        time.sleep(random.uniform(1, 2))  # To avoid overwhelming the server
-    
+
 
 def get_info_from_posts(page):
     base_url = 'https://api.anime-pictures.net/api/v3/posts'
-    try:
-        response = httpx.get(base_url, params={'page': page}, headers=headers, timeout=10)
-        response.raise_for_status()
-        posts = response.json().get('posts', [])
-        return [get_pic_info(post) for post in posts if get_pic_info(post)]
-    except Exception as e:
-        logger.error(f"Request error while fetching posts for page {page}: {e}")
-        return []
+    with httpx.Client(headers=headers, follow_redirects=True, timeout=20.0) as client:
+        try:
+            response = client.get(base_url, params={'page': page}, timeout=10)
+            response.raise_for_status()
+            posts = response.json().get('posts', [])
+            return [get_pic_info(post) for post in posts if get_pic_info(post)]
+        except Exception as e:
+            logger.error(f"Request error while fetching posts for page {page}: {e}")
+            return []
 
-def get_hot_pic_info(length, erotic=""):
+def get_hot_pic_info(length, erotic):
     base_url = 'https://api.anime-pictures.net/api/v3/top'
     params = {
         'length': length,
-        'erotic': erotic
+        'erotic': 1 if erotic else '',
     }
-    try:
-        response = httpx.get(base_url, params=params, headers=headers, timeout=10)
-        if response.status_code == 200:
-            top = response.json().get('top', [])
-            return [get_pic_info(pic) for pic in top]
-        else:
-            logger.error(f"Failed to fetch hot pictures. Status code: {response.status_code}")
+    with httpx.Client(headers=headers, follow_redirects=True, timeout=20.0) as client:
+        try:
+            response = client.get(base_url, params=params, timeout=10)
+            if response.status_code == 200:
+                top = response.json().get('top', [])
+                return [get_pic_info(pic) for pic in top]
+            else:
+                logger.error(f"Failed to fetch hot pictures. Status code: {response.status_code}")
+                return []
+        except Exception as e:
+            logger.error(f"Request error while fetching hot pictures: {e}")
             return []
-    except Exception as e:
-        logger.error(f"Request error while fetching hot pictures: {e}")
-        return []
 
 def write_json(result, filename):
     result = sorted(result, key=lambda x: x.get('download_count', 0), reverse=True)
@@ -117,70 +104,73 @@ def write_json(result, filename):
         json.dump(result, f, ensure_ascii=False, indent=4)
 
 
-
-def process_hot_pic(length, erotic, pic_dir, save_choice='both'):
+def process_hot_pic(length, erotic, pic_dir):
+    """处理热门作品"""
     hot_pics = get_hot_pic_info(length, erotic)
     logger.info(f"Fetched {len(hot_pics)} hot pictures for length '{length}' and erotic '{erotic}'.")
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        future_to_data = [executor.submit(process_single_pic, data, pic_dir, save_choice=save_choice) for data in hot_pics]
-        result_list = []
-        for future in as_completed(future_to_data):
-            try:
-                future.result()  
-            except Exception as e:
-                logger.error(f"Error processing picture: {e}")
-    write_json(result_list, f'{pic_dir}/hot_{length}_{erotic}.json')
+    with httpx.Client(headers=headers, follow_redirects=True, timeout=20.0) as client:
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            future_to_data = [executor.submit(save_pic, data['url'], f'{pic_dir}/full', data['pic_id'], client) for data in hot_pics]
+            for future in as_completed(future_to_data):
+                try:
+                    future.result()  
+                except Exception as e:
+                    logger.error(f"Error processing picture: {e}")
+    write_json(hot_pics, f'{pic_dir}/hot_{length}_{erotic}.json')
     return hot_pics
 
 
-def process_single_post(page, erotic, load_count, pic_dir, save_choice):
+
+def process_single_post(page, erotic, load_count, pic_dir, save_choice, client):
+    """处理单页作品"""
     posts = get_info_from_posts(page)
     filtered_posts = [
-        pic for pic in posts if pic.get('download_count', 0) > load_count and pic.get('erotics', 0) == erotic
+        pic for pic in posts if pic.get('download_count', 0) > load_count and (pic.get('erotics', 0) == erotic or erotic == 2)
     ]
     logger.info(f"Page {page}: Found {len(filtered_posts)} posts with download_count > {load_count} and erotic={erotic}.")
     for pic in filtered_posts:
         if not pic:
             continue
-        with httpx.Client() as client:
-            try:
-                if save_choice == 'both' or save_choice == 'small':
-                    if os.path.exists(f'{pic_dir}/small/{pic["pic_id"]}.{pic["small_url"].split(".")[-1]}'):
-                        logger.info(f"Small image for pic_id {pic['pic_id']} already exists. Skipping download.")
-                        continue
-                    save_pic(pic['small_url'], f'{pic_dir}/small', pic['pic_id'], client=client)
-                    time.sleep(random.uniform(1, 2))  # To avoid overwhelming the server
-                if save_choice == 'both' or save_choice == 'full':
-                    if os.path.exists(f'{pic_dir}/full/{pic["pic_id"]}.{pic["url"].split(".")[-1]}'):
-                        logger.info(f"Full image for pic_id {pic['pic_id']} already exists. Skipping download.")
-                        continue
-                    save_pic(pic['url'], f'{pic_dir}/full', pic['pic_id'], client=client)
-                    time.sleep(random.uniform(8, 10))  # To avoid overwhelming the server
-            except Exception as e:
-                logger.error(f"Error processing picture: {e}")
+        try:
+            if save_choice == 'both' or save_choice == 'small':
+                if os.path.exists(f'{pic_dir}/small/{pic["pic_id"]}.{pic["small_url"].split(".")[-1]}'):
+                    logger.info(f"Small image for pic_id {pic['pic_id']} already exists. Skipping download.")
+                    continue
+                save_pic(pic['small_url'], f'{pic_dir}/small', pic['pic_id'],client)
+                time.sleep(random.uniform(1, 2))  # To avoid overwhelming the server
+            if save_choice == 'both' or save_choice == 'full':
+                if os.path.exists(f'{pic_dir}/full/{pic["pic_id"]}.{pic["url"].split(".")[-1]}'):
+                    logger.info(f"Full image for pic_id {pic['pic_id']} already exists. Skipping download.")
+                    continue
+                save_pic(pic['url'], f'{pic_dir}/full', pic['pic_id'], client)
+                time.sleep(random.uniform(10, 15))  # To avoid overwhelming the server
+        except Exception as e:
+            logger.error(f"Error processing picture: {e}")
 
     return filtered_posts
 
-def process_post(erotic, load_count=100, pages=1, pic_dir='../pics', save_choice='both'):
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        future_to_data = {executor.submit(process_single_post, page, erotic, load_count, pic_dir, save_choice=save_choice): page for page in range(1, pages + 1)}
-        result = []
-        for future in future_to_data:
-            try:
-                post_info = future.result()
-                if post_info:
-                    result.extend(post_info)
-                    logger.info(f"Processed page {future_to_data[future]} with {len(post_info)} posts.")
-            except Exception as e:
-                logger.error(f"Error processing post: {e}, page: {future_to_data[future]}")
+def process_post(erotic, load_count=100,start_page=1, pages=1, pic_dir='../pics', save_choice='both'):
+    with httpx.Client(headers=headers, follow_redirects=True, timeout=20.0) as client:
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            future_to_data = {executor.submit(process_single_post, page, erotic, load_count, pic_dir, save_choice=save_choice, client=client): page for page in range(start_page, pages + 1)}
+            result = []
+            for future in future_to_data:
+                try:
+                    post_info = future.result()
+                    if post_info:
+                        result.extend(post_info)
+                        logger.info(f"Processed page {future_to_data[future]} with {len(post_info)} posts.")
+                except Exception as e:
+                    logger.error(f"Error processing post: {e}, page: {future_to_data[future]}")
     write_json(result, f'{pic_dir}/posts_{load_count}_{pages}.json')
     return result
 
 
 
-length = 'day'  # Options: 'day', 'week'
-erotic = 1  # Options: 0(non-erotic), 1 (erotic)
-load_count = 10  # Minimum download count to filter posts
-pages = 1  # Number of pages to process
-# process_hot_pic(length=length, erotic=erotic, pic_dir=f'../pics/hot/{length}_{erotic}_{datetime.now().strftime("%m-%d")}', save_choice='full')
-process_post(erotic=erotic, load_count=load_count, pages=pages, pic_dir=f'../pics/posts/{load_count}_{erotic}', save_choice='small')
+length = 'week'  # Options: 'day', 'week'
+erotic = 2  # Options: 0(non-erotic), 1 (erotic), 2 (both only for posts)
+load_count = 50  # Minimum download count to filter posts
+pages = 4  # Number of pages to process
+start_page = 1
+# process_hot_pic(length=length, erotic=erotic, pic_dir=f'../pics/hot/{length}_{erotic}_{datetime.now().strftime("%m-%d")}')
+process_post(erotic=erotic, load_count=load_count, pages=pages, pic_dir=f'../pics/posts/{start_page}-{start_page+pages-1}_{erotic}_{load_count}.json', save_choice='full')

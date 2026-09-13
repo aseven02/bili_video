@@ -110,7 +110,7 @@ def process_hot_pic(length, erotic, pic_dir):
     logger.info(f"Fetched {len(hot_pics)} hot pictures for length '{length}' and erotic '{erotic}'.")
     with httpx.Client(headers=headers, follow_redirects=True, timeout=20.0) as client:
         with ThreadPoolExecutor(max_workers=4) as executor:
-            future_to_data = [executor.submit(save_pic, data['url'], f'{pic_dir}/full', data['pic_id'], client) for data in hot_pics]
+            future_to_data = [executor.submit(save_pic, data['url'], f'{pic_dir}', data['pic_id'], client) for data in hot_pics if data]
             for future in as_completed(future_to_data):
                 try:
                     future.result()  
@@ -125,7 +125,7 @@ def process_single_post(page, erotic, load_count, pic_dir, save_choice, client):
     """处理单页作品"""
     posts = get_info_from_posts(page)
     filtered_posts = [
-        pic for pic in posts if pic.get('download_count', 0) > load_count and (pic.get('erotics', 0) == erotic or erotic == 2)
+        pic for pic in posts if pic and pic.get('download_count', 0) > load_count and (pic.get('erotics', 0) == erotic or erotic == 2)
     ]
     logger.info(f"Page {page}: Found {len(filtered_posts)} posts with download_count > {load_count} and erotic={erotic}.")
     for pic in filtered_posts:
@@ -172,5 +172,5 @@ erotic = 2  # Options: 0(non-erotic), 1 (erotic), 2 (both only for posts)
 load_count = 50  # Minimum download count to filter posts
 pages = 4  # Number of pages to process
 start_page = 1
-# process_hot_pic(length=length, erotic=erotic, pic_dir=f'../pics/hot/{length}_{erotic}_{datetime.now().strftime("%m-%d")}')
-process_post(erotic=erotic, load_count=load_count, pages=pages, pic_dir=f'../pics/posts/{start_page}-{start_page+pages-1}_{erotic}_{load_count}.json', save_choice='full')
+process_hot_pic(length=length, erotic=erotic, pic_dir=f'../pics/hot/{length}_{erotic}_{datetime.now().strftime("%m-%d")}')
+# process_post(erotic=erotic, load_count=load_count, pages=pages, pic_dir=f'../pics/posts/{start_page}-{start_page+pages-1}_{erotic}_{load_count}.json', save_choice='full')

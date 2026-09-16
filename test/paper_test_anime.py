@@ -55,6 +55,7 @@ def save_pic(pic_url, pic_dir, pic_id, client, max_retries=3):
                 with open(save_path, 'wb') as f:
                     f.write(image_data)
                 logger.info(f"Saved image to {save_path}")
+                time.sleep(random.uniform(1, 2))  # To avoid overwhelming the server
                 break
             else:
                 logger.error(f"Failed to save image from {pic_url}")
@@ -167,10 +168,10 @@ def process_post(erotic, load_count=100,start_page=1, pages=1, pic_dir='../pics'
 
 
 
-length = 'week'  # Options: 'day', 'week'
-erotic = 2  # Options: 0(non-erotic), 1 (erotic), 2 (both only for posts)
+length = 'day'  # Options: 'day', 'week'
+erotic = 1  # Options: 0(non-erotic), 1 (erotic), 2 (both only for posts)
 load_count = 50  # Minimum download count to filter posts
 pages = 4  # Number of pages to process
 start_page = 1
-process_hot_pic(length=length, erotic=erotic, pic_dir=f'../pics/hot/{length}_{erotic}_{datetime.now().strftime("%m-%d")}')
+process_hot_pic(length=length, erotic=erotic, pic_dir=f'../pics/hot/{length}_{0 if erotic == 0 else 1}_{datetime.now().strftime("%m-%d")}')
 # process_post(erotic=erotic, load_count=load_count, pages=pages, pic_dir=f'../pics/posts/{start_page}-{start_page+pages-1}_{erotic}_{load_count}.json', save_choice='full')

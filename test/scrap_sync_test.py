@@ -246,7 +246,7 @@ class Scraper:
 async def main():
     cookie = "_ga=GA1.1.784025586.1789196060; _ga_CSLL4ZEK4L=GS2.1.s1789562503$o5$g1$t1789562554$j9$l0$h0; _ga_SB6KFHKWNW=GS2.1.s1789562504$o5$g1$t1789562554$j10$l0$h1116168499"
     scraper = Scraper(cookie=cookie, rate_limit=4, semaphore_limit=5)
-    await scraper.run(start_page=1, end_page=12, output_file='test/output/contracts.json')
+    await scraper.run(start_page=1, end_page=12, output_file='test/output/contracts.jsonl')
 
 if __name__ == "__main__":
     asyncio.run(main())
